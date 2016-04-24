@@ -1,0 +1,1430 @@
+jlevy/the-art-of-command-line · GitHub
+
+“Rank[edit]
+Every two bases of the same free abelian group have the same cardinality, so the cardinality of a basis forms an invariant of the group known as its rank.[22][23] In particular, a free abelian group is finitely generated if and only if its rank is a finite number n, in which case the group is isomorphic to .
+
+This notion of rank can be generalized, from free abelian groups to abelian groups that are not necessarily free. The rank of an abelian group G is defined as the rank of a free abelian subgroup F of G for which the quotient group G/F is a torsion group. Equivalently, it is the cardinality of a maximal subset of G that generates a free subgroup. Again, this is a group invariant; it does not depend on the choice of the subgroup.[24]”
+
+https://en.wikipedia.org/wiki/Free_abelian_group
+
+“Properties[edit]
+Universal property[edit]
+If F is a free abelian group with basis B, then we have the following universal property: for every arbitrary function f from B to some abelian group A, there exists a unique group homomorphism from F to A which extends f.[5] By a general property of universal properties, this shows that "the" abelian group of base B is unique up to an isomorphism. This allows to use this universal property as a definition of the free abelian group of base B and shows that all the other definitions are equivalent.[11]
+
+”
+
+https://en.wikipedia.org/wiki/Free_abelian_group
+
+“Direct sums, direct products, and trivial group[edit]
+The direct product of two free abelian groups is itself free abelian, with basis the disjoint union of the bases of the two groups.[4] More generally the direct product of any finite number of free abelian groups is free abelian. The d-dimensional integer lattice, for instance, is isomorphic to the direct product of d copies of the integer group Z.
+
+The trivial group {0} is also considered to be free abelian, with basis the empty set.[5] It may be interpreted as a direct product of zero copies of Z.
+
+For infinite families of free abelian groups, the direct product (the family of tuples of elements from each group, with pointwise addition) is not necessarily free abelian.[4] For instance the Baer–Specker group , an uncountable group formed as the direct product of countably many copies of , was shown in 1937 by Reinhold Baer to not be free abelian;[6] Ernst Specker proved in 1950 that every countable subgroup of  is free abelian.[7] The direct sum of finitely many groups is the same as the direct product, but differs from the direct product on an infinite number of summands; its elements consist of tuples of elements from each group with all but finitely many of them equal to the identity element. As in the case of a finite number of summands, the direct sum of infinitely many free abelian groups remains free abelian, with a basis formed by (the images of) a disjoint union of the bases of the summands.[4]
+
+The tensor product of two free abelian groups is always free abelian, with a basis that is the Cartesian product of the bases for the two groups in the product.[8]
+
+Every free abelian group may be described as a direct sum of copies of , with one copy for each member of its basis.[9][10] This construction allows any set B to become the basis of a free abelian group.[11]
+
+”
+
+https://en.wikipedia.org/wiki/Free_abelian_group
+
+“Integers and lattices[edit]
+The integers, under the addition operation, form a free abelian group with the basis {1}. Every integer n is a linear combination of basis elements with integer coefficients: namely, n = n × 1, with the coefficient n.
+
+The two-dimensional integer lattice, consisting of the points in the plane with integer Cartesian coordinates, forms a free abelian group under vector addition with the basis {(0,1), (1,0)}.[1] If we say  and , then the element (4,3) can be written
+
+ where 'multiplication' is defined so that 
+In this basis, there is no other way to write (4,3), but with a different basis such as {(1,0),(1,1)}, where  and , it can be written as
+
+
+More generally, every lattice forms a finitely-generated free abelian group.[2] The d-dimensional integer lattice has a natural basis consisting of the positive integer unit vectors, but it has many other bases as well: if M is a d × d integer matrix with determinant ±1, then the rows of M form a basis, and conversely every basis of the integer lattice has this form.[3] For more on the two-dimensional case, see fundamental pair of periods.”
+
+https://en.wikipedia.org/wiki/Free_abelian_group
+
+
+
+“Relation to arbitrary abelian groups[edit]
+Given an arbitrary abelian group A, there always exists a free abelian group F and a surjective group homomorphism from F to A. One way of constructing a surjection onto a given group A is to let  be the free abelian group over A, represented as the set of functions from A to the integers with finitely many nonzeros. Then a surjection can be defined from the representation of members of F as formal sums of members of A:
+
+
+where the first sum is in F and the second sum is in A.[23][34] This construction can be seen as an instance of the universal property: this surjection is the unique group homomorphism which extends the function .
+
+When F and A are as above, the kernel G of the surjection from F to A is also free abelian, as it is a subgroup of F (the subgroup of elements mapped to the identity). Therefore, these groups form a short exact sequence
+
+0 → G → F → A → 0
+in which F and G are both free abelian and A is isomorphic to the factor group F/G. This is a free resolution of A.[35] Furthermore, assuming the axiom of choice,[36] the free abelian groups are precisely the projective objects in the category of abelian groups.[37]
+
+”
+
+https://en.wikipedia.org/wiki/Free_abelian_group
+
+[CTAN: tex-archive/fonts/comicsans](http://www.ctan.org/tex-archive/macros/latex/contrib/comicsans)
+
+> CTAN: tex-archive/fonts/comicsans
+
+
+“https://etyn.com/tools/document-converter”
+
+https://etyn.com/tools/document-converter
+
+“Complex Analysis question - Mobius transformation : math”
+
+https://www.reddit.com/r/math/comments/3w4ui5/complex_analysis_question_mobius_transformation/?
+
+“
+In mathematics, a free module is a module that has a basis – that is, a generating set consisting of linearly independent elements. Every vector space is a free module,[1] but, if the ring of the coefficients is not a field, there exist non-free modules.
+
+Given any set S, there is a free module with basis S, which is called free module on S or module of formal linear combinations of the elements of S.”
+
+https://en.wikipedia.org/wiki/Free_module
+
+“
+This picture illustrates the standard basis in R2. The blue and orange vectors are the elements of the basis; the green vector can be given in terms of the basis vectors, and so is linearly dependent upon them.
+A basis B of a vector space V over a field F is a linearly independent subset of V that spans V.
+
+In more detail, suppose that B = { v1, …, vn } is a finite subset of a vector space V over a field F (such as the real or complex numbers R or C). Then B is a basis if it satisfies the following conditions:
+
+the linear independence property,
+for all a1, …, an ∈ F, if a1v1 + … + anvn = 0, then necessarily a1 = … = an = 0; and
+the spanning property,
+for every x in V it is possible to choose a1, …, an ∈ F such that x = a1v1 + … + anvn.
+The numbers ai are called the coordinates of the vector x with respect to the basis B, and by the first property they are uniquely determined.
+
+A vector space that has a finite basis is called finite-dimensional. To deal with infinite-dimensional spaces, we must generalize the above definition to include infinite basis sets. We therefore say that a set (finite or infinite) B ⊂ V is a basis, if
+
+every finite subset B0 ⊆ B obeys the independence property shown above; and
+for every x in V it is possible to choose a1, …, an ∈ F and v1, …, vn ∈ B such that x = a1v1 + … + anvn.
+The sums in the above definition are all finite because without additional structure the axioms of a vector space do not permit us to meaningfully speak about an infinite sum of vectors. Settings that permit infinite linear combinations allow alternative definitions of the basis concept: see Related notions below.
+
+It is often convenient to list the basis vectors in a specific order, for example, when considering the transformation matrix of a linear map with respect to a basis. We then speak of an ordered basis, which we define to be a sequence (rather than a set) of linearly independent vectors that span V: see Ordered bases and coordinates below.
+
+”
+
+https://en.wikipedia.org/wiki/Basis_(linear_algebra)
+
+Digital Signatures are a means to protect digital information from intentional modification and to authenticate the source of digital information. Public key cryptography provides a rich set of different cryptographic algorithms the create digital signatures. However, all of the public key signatures currently in use will become completely insecure if scientists are ever able to build a moderately sized quantum computer.[1][2] New digital signature algorithms such as the Ring learning with errors signature (RLWE-SIG) described in this article are examples of a new class of Quantum Safe cryptographic algorithms designed to resist cryptanalytic attacks run on a quantum computer.[3][4]
+
+Ideal lattices are a special class of lattices and a generalization of cyclic lattices.[1] Ideal lattices naturally occur in many parts of number theory, but also in other areas. In particular, they have a significant place in cryptography. Micciancio defined a generalization of cyclic lattices as ideal lattices. They can be used in cryptosystems to decrease by a square root the number of parameters necessary to describe a lattice, making them more efficient. Ideal lattices are a new concept, but similar lattice classes have been used for a long time. For example cyclic lattices, a special case of ideal lattices, are used in NTRUEncrypt and NTRUSign.
+
+Ideal lattices also form the basis for quantum computer attack resistant cryptography based on the Ring Learning with Errors.[2] These cryptosystems are provably secure under the assumption that the Shortest Vector Problem (SVP) is hard in these ideal lattices.
+
+“American Phrase Book”
+
+http://alumni.media.mit.edu/~guy/american/
+
+Two new checks in @quixapp as of today: ‘spdy’ to check if domain supports SPDY, ‘ssltest’ to test SSL implementation of domain
+3:54pm - 30 Mar 14
+
+Bibliography @book{Bewersdorff_Kramer_2006, place={Providence, RI}, title={Galois theory for beginners: a historical perspective}, ISBN={9780821838174}, publisher={American Mathematical Society}, author={Bewersdorff, Jorg and Kramer, David}, year={2006}, month={Jan}} Citations, Quotes & Annotations @book{Bewersdorff_Kramer_2006, place={Providence, RI}, title={Galois theory for beginners: a historical perspective}, ISBN={9780821838174}, publisher={American Mathematical Society}, author={Bewersdorff, Jorg and Kramer, David}, year={2006}, month={Jan}} Bewersdorff_Kramer_2006
+
+“http://www-math.mit.edu/~trasched/18.700.f10/lect17-article.pdf”
+
+http://www-math.mit.edu/~trasched/18.700.f10/lect17-article.pdf
+
+The ring Z/nZ of integers modulo n has characteristic n. If R is a subring of S, then R and S have the same characteristic. For instance, if q(X) is a prime polynomial with coefficients in the field Z/pZ where p is prime, then the factor ring (Z/pZ)[X]/(q(X)) is a field of characteristic p. Since the complex numbers contain the rationals, their characteristic is 0.
+
+“[untitled](http://www.daviddfriedman.com/Academic/Strong_Privacy/Strong_Privacy.html)
+
+
+
+”
+
+http://www.daviddfriedman.com/Academic/Strong_Privacy/Strong_Privacy.html
+
+
+
+
+http://simpleprogrammer.com/2013/09/09/dark-side-software-development-one-talks/
+
+http://scottberkun.com/2007/asshole-driven-development/
+
+http://workingcopyapp.com/manual.html
+
+
+## SkimPDF_Tool  __ __ __
+
+Authors:  [ ![Christiaan Hofman][1] ][2]
+
+* [General Usage][3]
+    * [Summary][4]
+    * [Embed][5]
+    * [Unembed][6]
+    * [Merge][7]
+    * [Extract][8]
+    * [Help][9]
+    * [Version][10]
+
+## General Usage
+
+These are usage notes for the `skimpdf` command line tool version 1.0.
+
+### Summary
+
+Usage:
+
+    skimpdf embed IN_PDF_FILE [OUT_PDF_FILE]
+    skimpdf unembed IN_PDF_FILE [OUT_PDF_FILE]
+    skimpdf merge IN_PDF_FILE_1 IN_PDF_FILE_2 [OUT_PDF_FILE]
+    skimpdf extract IN_PDF_FILE [OUT_PDF_FILE] [-range START [LENGTH] | -page PAGE1... | -odd | -even]
+    skimpdf help [VERB]
+    skimpdf version
+
+### Embed
+
+Embed Skim notes in a PDF
+
+Usage:
+
+    skimpdf embed IN_PDF_FILE [OUT_PDF_FILE]
+
+Writes PDF with Skim notes from IN_PDF_FILE to PDF with annotations embedded in the PDF to OUT_PDF_FILE. Writes to IN_PDF_FILE when OUT_PDF_FILE is not provided.
+
+### Unembed
+
+Converts annotations embedded in a PDF to Skim notes
+
+Usage:
+
+    skimpdf unembed IN_PDF_FILE [OUT_PDF_FILE]
+
+Converts annotations embedded in IN_PDF_FILE to Skim notes and writes the PDF data with notes removed to OUT_PDF_FILE with the Skim notes written to the extended attributes. Writes to IN_PDF_FILE when OUT_PDF_FILE is not provided.
+
+### Merge
+
+Merges two PDF files with attached Skim notes
+
+Usage:
+
+    skimpdf merge IN_PDF_FILE_1 IN_PDF_FILE_2 [OUT_PDF_FILE]
+
+Merges IN_PDF_FILE_1 and IN_PDF_FILE_2 and Skim notes from their extended attributes and writes to OUT_PDF_FILE. Writes to IN_PDF_FILE_1 when OUT_PDF_FILE is not provided.
+
+### Extract
+
+Extracts part of a PDF with attached Skim notes
+
+Usage:
+
+    skimpdf extract IN_PDF_FILE [OUT_PDF_FILE] [-range START [LENGTH] | -page PAGE1... | -odd | -even]
+
+Extracts pages from IN_PDF_FILE and attached Skim notes in the pages, given either as a page range or a series of pages, and writes them to OUT_PDF_FILE. Writes to IN_PDF_FILE when OUT_PDF_FILE is not provided.
+
+### Help
+
+Get help on the skimpdf tool
+
+Usage:
+
+    skimpdf help [VERB]
+
+Get help on the verb VERB.
+
+### Version
+
+Get version of the skimpdf tool
+
+Usage:
+
+    skimpdf version
+
+Get the version of the tool and exit.
+
+Name
+
+* * *
+
+#### Related
+
+[Wiki: Interaction_with_Skim][11]  
+[Wiki: Main_Page][12]  
+
+__
+
+[1]: https://secure.gravatar.com/avatar/631aef5938b13369ddf5e2798e963cea?r=pg "Christiaan Hofman"
+[2]: https://sourceforge.net/u/hofman/
+[3]: https://sourceforge.net/p/skim-app/wiki/SkimPDF_Tool/#general-usage
+[4]: https://sourceforge.net/p/skim-app/wiki/SkimPDF_Tool/#summary
+[5]: https://sourceforge.net/p/skim-app/wiki/SkimPDF_Tool/#embed
+[6]: https://sourceforge.net/p/skim-app/wiki/SkimPDF_Tool/#unembed
+[7]: https://sourceforge.net/p/skim-app/wiki/SkimPDF_Tool/#merge
+[8]: https://sourceforge.net/p/skim-app/wiki/SkimPDF_Tool/#extract
+[9]: https://sourceforge.net/p/skim-app/wiki/SkimPDF_Tool/#help
+[10]: https://sourceforge.net/p/skim-app/wiki/SkimPDF_Tool/#version
+[11]: https://sourceforge.net/p/skim-app/wiki/Interaction_with_Skim/
+[12]: https://sourceforge.net/p/skim-app/wiki/Main_Page/
+  
+  
+  
+## SkimNotes_Tool  __ __ __
+
+Authors:  [ ![Christiaan Hofman][1] ][2] [ ![Michael McCracken][3] ][4]
+
+* [General Usage][5]
+    * [Summary][6]
+    * [Get][7]
+    * [Set][8]
+    * [Remove][9]
+    * [Test][10]
+    * [Convert][11]
+    * [Agent][12]
+    * [Protocol][13]
+    * [Help][14]
+    * [Version][15]
+
+## General Usage
+
+These are usage notes for the `skimnotes` command line tool version 2.6.
+
+### Summary
+
+Usage:
+
+    skimnotes get [-format skim|text|rtf] PDF_FILE [NOTES_FILE|-]
+    skimnotes set PDF_FILE [SKIM_FILE|-] [TEXT_FILE] [RTF_FILE]
+    skimnotes remove PDF_FILE
+    skimnotes test PDF_FILE
+    skimnotes convert IN_PDF_FILE [OUT_PDF_FILE]
+    skimnotes agent [SERVER_NAME]
+    skimnotes protocol
+    skimnotes help [VERB]
+    skimnotes version
+
+### Get
+
+Read Skim notes from a PDF
+
+Usage:
+
+    skimnotes get [-format skim|text|rtf] PDF_FILE [NOTES_FILE|-]
+
+Reads Skim, Text, or RTF notes from extended attributes of PDF_FILE or the contents of PDF bundle PDF_FILE and writes to NOTES_FILE or standard output. Uses notes file with same base name as PDF_FILE if SKIM_FILE is not provided. Reads Skim notes when no format is provided.
+
+### Set
+
+Write Skim notes to a PDF
+
+Usage:
+
+    skimnotes set PDF_FILE [SKIM_FILE|-] [TEXT_FILE] [RTF_FILE]
+
+Writes notes to extended attributes of PDF_FILE or the contents of PDF bundle PDF_FILE from SKIM_FILE or standard input. Uses notes file with same base name as PDF_FILE if SKIM_FILE is not provided. Writes a default form for the text formats based on the contents of SKIM_FILE if TEXT_FILE and/or RTF_FILE are not provided.
+
+### Remove
+
+Delete Skim notes from a PDF
+
+Usage:
+
+    skimnotes remove PDF_FILE
+
+Removes the Skim notes from the extended attributes of PDF_FILE or from the contents of PDF bundle PDF_FILE.
+
+### Test
+
+Tests whether a PDF file has Skim notes
+
+Usage:
+
+    skimnotes test PDF_FILE
+
+Returns a zero (true) exit status when the extended attributes of PDF_FILE or the contents of PDF bundle PDF_FILE contain Skim notes, otherwise return 1 (false).
+
+### Convert
+
+Convert between a PDF file and a PDF bundle
+
+Usage:
+
+    skimnotes convert IN_PDF_FILE [OUT_PDF_FILE]
+
+Converts a PDF file IN_PDF_FILE to a PDF bundle OUT_PDF_FILE or a PDF bundle IN_PDF_FILE to a PDF file OUT_PDF_FILE. Uses a file with same base name as IN_PDF_FILE if OUT_PDF_FILE is not provided.
+
+### Agent
+
+Run the Skim Notes agent
+
+Usage:
+
+    skimnotes agent [SERVER_NAME]
+
+Runs a Skim Notes agent server with server name SERVER_NAME, to which a Cocoa application can connect using DO. When SERVER_NAME is not provided, a unique name is generated and returned on standard output. The DO server conforms to the following formal protocol.
+
+    @protocol SKAgentListenerProtocol
+    - (bycopy NSData *)SkimNotesAtPath:(in bycopy NSString *)aFile;
+    - (bycopy NSData *)RTFNotesAtPath:(in bycopy NSString *)aFile;
+    - (bycopy NSData *)textNotesAtPath:(in bycopy NSString *)aFile encoding:(NSStringEncoding)encoding;
+    @end
+
+### Protocol
+
+Write the agent protocol
+
+Usage:
+
+    skimnotes protocol
+
+Writes the protocol for the DO server from the skimnotes agent to standard output.
+
+### Help
+
+Get help on the skimnotes tool
+
+Usage:
+
+    skimnotes help [VERB]
+
+Get help on the verb VERB.
+
+### Version
+
+Get version of the skimnotes tool
+
+Usage:
+
+    skimnotes version
+
+Get the version of the tool and exit.
+
+Name
+
+* * *
+
+#### Related
+
+[Wiki: Interaction_with_Skim][16]  
+[Wiki: Main_Page][17]  
+
+__
+
+[1]: https://secure.gravatar.com/avatar/631aef5938b13369ddf5e2798e963cea?r=pg "Christiaan Hofman"
+[2]: https://sourceforge.net/u/hofman/
+[3]: https://secure.gravatar.com/avatar/9a05dbf3cec8ce0ff907a6e9c9ca7bfe?r=pg "Michael McCracken"
+[4]: https://sourceforge.net/u/mmcc/
+[5]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#general-usage
+[6]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#summary
+[7]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#get
+[8]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#set
+[9]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#remove
+[10]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#test
+[11]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#convert
+[12]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#agent
+[13]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#protocol
+[14]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#help
+[15]: https://sourceforge.net/p/skim-app/wiki/SkimNotes_Tool/#version
+[16]: https://sourceforge.net/p/skim-app/wiki/Interaction_with_Skim/
+[17]: https://sourceforge.net/p/skim-app/wiki/Main_Page/
+  
+  
+  [Dropbox - In Saving Strangers.pdf](https://db.tt/2RgVkr7R)
+  
+  http://vim.wikia.com/wiki/Creating_your_own_syntax_files
+  
+  http://lifehacker.com/mps-youtube-is-a-terminal-based-youtube-player-and-down-1651752380
+  
+  http://lifehacker.com/lets-talk-about-apples-privacy-issues-1655944758
+  
+  http://lifehacker.com/your-mac-logs-everything-you-download-heres-how-to-cle-1658394180
+  
+  http://lifehacker.com/change-where-screenshots-are-saved-on-your-mac-with-a-t-1681819838
+  
+  http://lifehacker.com/hide-a-specific-user-account-in-os-x-with-this-terminal-1686766312
+  
+  http://lifehacker.com/how-to-get-better-sleep-in-uncomfortable-and-unavoidabl-1689861129
+  
+  http://lifehacker.com/set-your-mac-s-sleep-time-with-a-terminal-command-1691284688
+  
+  http://lifehacker.com/build-this-space-saving-workstation-for-your-diy-electr-1694546008
+  
+  http://lifehacker.com/the-misconceptions-about-mental-illness-we-need-to-unle-1711647132
+  
+  http://lifehacker.com/add-a-secret-scroll-gesture-to-reveal-app-windows-on-yo-1713086047
+  
+  http://lifehacker.com/302197/useful-command-line-tricks-for-mac-users
+  
+  http://lifehacker.com/search?q=Terminal&startIndex=20
+  
+  http://lifehacker.com/noti-displays-a-notification-after-a-terminal-process-f-1753239868
+  
+  http://lifehacker.com/get-a-quick-weather-forecast-with-a-terminal-command-1760639048
+  
+  http://lifehacker.com/change-a-macs-software-update-frequency-with-a-terminal-1760812057
+  
+  http://lifehacker.com/ncutil-customizes-os-x-notification-settings-1696215129
+  
+  http://lifehacker.com/find-the-wi-fi-password-for-your-current-network-with-t-1717978747
+  
+  http://lifehacker.com/quickly-approve-apps-for-your-macs-gatekeeper-from-the-1718307667
+  
+  http://lifehacker.com/pwd-sh-is-a-command-line-only-gpg-encrypted-password-m-1719969329
+  http://lifehacker.com/how-to-burn-os-x-el-capitan-to-a-usb-flash-drive-1733425133
+  
+  http://lifehacker.com/duck-is-an-ftp-client-based-on-cyberduck-built-for-the-1739438121
+  
+  http://lifehacker.com/verify-and-repair-permissions-from-the-command-line-in-1741718667
+  
+  http://lifehacker.com/speed-up-an-old-mac-by-disabling-these-animations-1745282066
+  
+  #!/usr/bin/env bash
+
+APPNAME=${2:-$(basename "$1" ".sh")}
+DIR="$APPNAME.app/Contents/MacOS"
+
+if [ -a "$APPNAME.app" ]; then
+  echo "$PWD/$APPNAME.app already exists :("
+  exit 1
+fi
+
+mkdir -p "$DIR"
+cp "$1" "$DIR/$APPNAME"
+chmod +x "$DIR/$APPNAME"
+
+echo "$PWD/$APPNAME.app"
+
+http://world.mathigon.org/Graph_Theory
+
+http://math.fau.edu/Locke/Courses/GraphTheory/Fall2003.htm
+
+http://www.math.ucsd.edu/~fan/research/outline.html
+
+http://people.brunel.ac.uk/~mastjjb/jeb/or/graph.html
+
+http://server.math.umanitoba.ca/courses/math2400/course_outline.html
+
+http://jwilson.coe.uga.edu/emat6680/yamaguchi/emat6690/essay1/gt.html
+
+% Roman Numeral List
+\begin{enumerate}[label=(\roman*)]
+    \item 
+    \item 
+\end{enumerate}
+
+drafts4://
+
+http://nowdothis.com/
+
+https://www.overleaf.com/latex/examples/track-changes-in-latex-with-trackchanges/cymjcmjsnphy#.Vuzy3UU8LCQ
+
+https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=&url=http%3A%2F%2Fdigg.com%2F2015%2Fcats-and-cosmos&bvm=bv.117218890,d.amc&psig=AFQjCNGbipOPdZ4iY25tQYm0ew85DgdnLA&ust=1458337353528232
+
+https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjTjK3818jLAhWHm4MKHdyMAlEQjRwIBw&url=http%3A%2F%2Fwww.iconarchive.com%2Fshow%2Fflatwoken-icons-by-alecive%2FApps-Pocket-icon.html&bvm=bv.117218890,d.amc&psig=AFQjCNEu66VG53bCfAtvodg0O8ihWtvtzA&ust=1458337299421168
+
+file:///Users/Em/Documents/ID.rtfd/C-65F7E3F3-054D-48DF-B9E1-1FA25707E156.jpeg
+
+C.S. Lewis
+We now settled into a routine which has ever since served in my mind as an archetype, so that what I still mean when I speak of a "normal" day (and lament that normal days are so rare) is a day of the Bookham pattern. For if I could please myself I would always live as I lived there. I would choose always to breakfast at exactly eight and to be at my desk by nine, there to read or write till one. If a cup of good tea or coffee could be brought me about eleven, so much the better. A step or so out of doors for a pint of beer would not do quite so well; for a man does not want to drink alone and if you meet a friend in the taproom the break is likely to be extended beyond its ten minutes. At one precisely lunch should be on the table; and by two at the latest I would be on the road. Not, except at rare intervals, with a friend. Walking and talking are two very great pleasures, but it is a mistake to combine them. Our own noise blots out the sounds and silences of the outdoor world; and talking leads almost inevitably to smoking, and then farewell to nature as far as one of our senses is concerned. The only friend to walk with is one (such as I found, during the holidays, in Arthur) who so exactly shares your taste for each mood of the countryside that a glance, a halt, or at most a nudge, is enough to assure us that the pleasure is shared. The return from the walk, and the arrival of tea, should be exactly coincident, and not later than a quarter past four. Tea should be taken in solitude, as I took it as Bookham on those (happily numerous) occasions when Mrs. Kirkpatrick was out; the Knock himself disdained this meal. For eating and reading are two pleasures that combine admirably. Of course not all books are suitable for mealtime reading. It would be a kind of blasphemy to read poetry at table. What one wants is a gossipy, formless book which can be opened anywhere. The ones I learned so to use at Bookham were Boswell, and a translation of Herodotus, and Lang's History of English Literature. Tristram Shandy, Elia and the Anatomy of Melancholy are all good for the same purpose. At five a man should be at work again, and at it till seven. Then, at the evening meal and after, comes the time for talk, or, failing that, for lighter reading; and unless you are making a night of it with your cronies (and at Bookham I had none) there is no reason why you should ever be in bed later than eleven. But when is a man to write his letters? You forget that I am describing the happy life I led with Kirk or the ideal life I would live now if I could. And it is essential of the happy life that a man would have almost no mail and never dread the postman's knock.
+
+Surprised by Joy: The Shape of My Early Life
+
+Two graphs are isomorphic if there is a correspondence between their vertex sets that preserves adjacency.
+
+Thus G = (V, E) is isomorphic to G f = (V', E') if there is a bijection ¢: V -> V' such that xy E E iff ¢(x)¢(y)EE'. Clearly isomorphic graphs have the same order and size
+
+The size of a graph of order n is at least 0 and at most (2). Clearly for every m, 0 S m S (2), there is a graph G(n, m). A graph of order n and size (2) is called a complete n-graph and is denoted by Kn; an empty n-graph En has order n and no edges. In K" every two vertices are adjacent, while in En no two vertices are adjacent. The graph Kl = El is said to be trivial
+
+
+http://www.helpguide.org/articles/add-adhd/adult-adhd-attention-deficit-disorder-and-relationships.htm
+
+An isolated vertex is a vertex of degree 0.
+
+Definition. The components of a graph G are its maximal connected subgraphs. A component (or graph) is trivial if it has no edges; otherwise it is nontrivial. An isolated vertex is a vertex of degree 0.
+
+What are the events that led to Rwandan Genocide?
+In the 1800’s both Germany and Belgium encouraged the positioning of the Tutsi’s within the Rwandan power structure. They chose the Tutsi’s as their favorites based on their hypothesis that the Tutsis  must be ancestors of the Europeans for many ridiculous pseudoscientific reasons (such as nose and skull shape), but mainly due to the fact they viewed the Tutsi’s as easier to deal with (more compliant) and gave them privileged positions within the ruling class, more educational opportunities, and other key administrative positions. In essence the europeans recreated the feudalistic they were familiar with. Unlike the Democratic Republic of Congo and Nigeria which contains hundreds of diverse tribes within their borders Rwanda was separated by only three castes (the actual occupations of course were not as limited as the caste system implies) zebu cattle owners which were the measure of social standing, and power with the King owning a majority of these livestock (Tutsi population, approx. 14%); the Tutsi leased cattle to the Hutu in exchange for a percent of each harvest; but never sold the cattle to the Hutu. The Hutu were primarily farmers (Hutu population approx. 85%), and the remaining 1% composed of Twa workers and servants. The two dominant parties had a historically feudal relationship with the Tutsi serving as the ruling class and the Hutu as subordinates. 
+Prior to the arrival of the Germans there is not a set, and agreed upon division into this caste system, and some Tutsi’s were farmers and some Hutu owned cattle. 
+
+After the colonial era the division between the two dominant groups became increasingly enforced; the perception is largely that the Hutu were exploited and relegated to a subhuman status by the Tutsi. 
+The first massacre occurred after WWII as a revolution from feudalism and the Hutu overthrew the Tutsi. The Belgian’s are said to have done nothing during this revolt to stop the slaughter of the group they had helped elevate to their hated status. However, they did once the Tutsi had been run off switch sides supporting the Hutu. After the first round of mass murder and class based carnage the Belgian’s instituted a system of ID cards with the persons caste affiliation clearly printed on the front which was enforced by the Hutu with a decidedly ethnic marketting campaign tailored to each group (except Twa); one of superiority to the other Hutu, as a threat to the remaining Tutsi, and to the remaining foreign powers and interests ‘don’t worry this is a normal transition from feudalism to independence your interests will be better cared for by us.’ The campaign was endorsed by the Catholic church; popular as a social mobilization device for Rwandan’s and as an indicator for the Belgians. Propaganda aimed toward the Tutsi increased as the internal and neighboring landscape changed significantly and refugees populations not simply Hutu or Tutsi began to develop and grow. A particularly significant influence was a campaign led by the Burundian army which engaged in acts torture and humiliation before killing Hutu refugees. The total population of displaced people continued a steady, but rapid increase. The government of Rwanda despite coups became increasingly corrupt and the negative propaganda caused the predictable increase in discrimination towards the Tutsi. The propaganda combined with the German example of Jewish scapegoating after the second world war, provided the concept of a ‘final solution’ for the Tutsi now labeled parasites, and later ‘cockroaches’. The radio commentary, propaganda, academic positioning, repeated perception of oppression under Tutsi along with polarizing anti-Tutsi rallies combined to a hysteria. Exploiting the Catholic faith present in the majority an alternate set of the Ten Commandments of the Christian old testament were produced; the commandments dictated the Tutsi should be shown ‘no mercy’ and neither should any Hutu who employed, married, or protected them and the ethnic hatred/racism militarized as plans for the Rwandan ‘final solution’ were put in place; localized genocide in remote areas showed the extremists they could expect few if any consequences. Once President Habyarimana’s jet was downed by missiles at Kigali with blame cast on the Tutsi the slow intentional build up of hysteria reached a peak (or rather an excuse) and ‘The 100 Days of Genocide’ began in force.
+Other factor’s such as economic instability, crop failure, and wars in the surrounding countries also had a significant effect on making the environmental conditions more favorable to the hysteria.
+
+*Why did the international community fail to stop the genocide? 
+Acording to an investigative report by Linda Melvern Ghali approved the sale of $26 million in weapons to the Hutu; at the time her was the Egyptian Minister of State in the Foreign Affairs offices, by 1994 the start of all out genocide Ghali was UN Secretary General. Ghali was not only accused of holding back the accounts of genocide in Rwanda, he also failed to be effective in several other UN interventions (Angola, Bosnia, Somalia, all of which caused the effectiveness of UN intervention to be increasingly questioned. Oddly, Ghali went on to be president of the Hague  Academy of International Law and even more puzzling as the Director of NCHR, his Wikipedia entry is oddly short for a an international official of such seemingly controversial status with approximately three (maybe four) non-overtly favorable references all overshadowed by a thick coating of favorables which seem to miss most of the history from anyone else’s view but his (weird). 
+Of course that doesn’t mean that we can pin the entire Rwandan genocide on him there ory countries to do **anything at all**, but those who did anything seemed to be either closet arms dealers or people who would have been in violation of international law if anyone started actually calling it a genocide; which everyone tried to do for a ridicuoulsly damning amount of time for idiotic reasons ranging from “bickering over military strategies”, “wanting to be sure their efforts wouldn’t be wasted” (arguably sending so few resources and soldiers pretty much guarantees that you have possibly intentionally stated a self-fulfilling prophecy, cherry picked reading of PPD-20 and the choice of President Clinton to paint the ordeal as not inline with US interests colored the issue as did the reluctance of certain parties to admit the had or still were selling arms to the Hutus. Basically no one wanted to be held or take any responsibility for saying “go” and in the end they ended up having to do exactly that for NOT saying it. 
+
+ 3/07
+Wheeler, Nicholas. 2000. 
+Global Bystander to Genocide:
+International Society and the Rwandan Genocide. 
+In Saving Strangers: Humanitarian Intervention in International Society. 
+Oxford: Oxford University Press.
+
+##### Reading Question: 
+*What are the events that led to Rwandan Genocide?*
+*Why did the international community fail to stop the genocide?*
+
+
+http://youtu.be/DuPkTRxmtSU
+
+American Newspaper Publishers, NYC, 4/27/61 
+
+# John F. Kennedy Speech
+
+
+**Listen to speech here:** ![Audio](/~/media/Configuration/Icons/audio.gif?w=33&h=31&as=1)            **View related documents here:** ![Folder](/~/media/Configuration/Icons/folder.gif?w=35&h=26&as=1)
+
+### President John F. Kennedy  
+#### Waldorf-Astoria Hotel, New York City  
+#### April 27, 1961
+
+Mr. Chairman, ladies and gentlemen:
+
+I appreciate very much your generous invitation to be here tonight.
+
+You bear heavy responsibilities these days and an article I read some time ago reminded me of how particularly heavily the burdens of present day events bear upon your profession.
+
+You may remember that in 1851 the New York Herald Tribune under the sponsorship and publishing of Horace Greeley, employed as its London correspondent an obscure journalist by the name of Karl Marx.
+
+We are told that foreign correspondent Marx, stone broke, and with a family ill and undernourished, constantly appealed to Greeley and managing editor Charles Dana for an increase in his munificent salary of $5 per installment, a salary which he and Engels ungratefully labeled as the "lousiest petty bourgeois cheating."
+
+But when all his financial appeals were refused, Marx looked around for other means of livelihood and fame, eventually terminating his relationship with the Tribune and devoting his talents full time to the cause that would bequeath the world the seeds of Leninism, Stalinism, revolution and the cold war.
+
+If only this capitalistic New York newspaper had treated him more kindly; if only Marx had remained a foreign correspondent, history might have been different. And I hope all publishers will bear this lesson in mind the next time they receive a poverty-stricken appeal for a small increase in the expense account from an obscure newspaper man.
+
+I have selected as the title of my remarks tonight "The President and the Press." Some may suggest that this would be more naturally worded "The President Versus the Press." But those are not my sentiments tonight.
+
+It is true, however, that when a well-known diplomat from another country demanded recently that our State Department repudiate certain newspaper attacks on his colleague it was unnecessary for us to reply that this Administration was not responsible for the press, for the press had already made it clear that it was not responsible for this Administration.
+
+Nevertheless, my purpose here tonight is not to deliver the usual assault on the so-called one party press. On the contrary, in recent months I have rarely heard any complaints about political bias in the press except from a few Republicans. Nor is it my purpose tonight to discuss or defend the televising of Presidential press conferences. I think it is highly beneficial to have some 20,000,000 Americans regularly sit in on these conferences to observe, if I may say so, the incisive, the intelligent and the courteous qualities displayed by your Washington correspondents.
+
+Nor, finally, are these remarks intended to examine the proper degree of privacy which the press should allow to any President and his family.
+
+If in the last few months your White House reporters and photographers have been attending church services with regularity, that has surely done them no harm.
+
+On the other hand, I realize that your staff and wire service photographers may be complaining that they do not enjoy the same green privileges at the local golf courses that they once did.
+
+It is true that my predecessor did not object as I do to pictures of one's golfing skill in action. But neither on the other hand did he ever bean a Secret Service man.
+
+My topic tonight is a more sober one of concern to publishers as well as editors.
+
+I want to talk about our common responsibilities in the face of a common danger. The events of recent weeks may have helped to illuminate that challenge for some; but the dimensions of its threat have loomed large on the horizon for many years. Whatever our hopes may be for the future--for reducing this threat or living with it--there is no escaping either the gravity or the totality of its challenge to our survival and to our security--a challenge that confronts us in unaccustomed ways in every sphere of human activity.
+
+This deadly challenge imposes upon our society two requirements of direct concern both to the press and to the President--two requirements that may seem almost contradictory in tone, but which must be reconciled and fulfilled if we are to meet this national peril. I refer, first, to the need for a far greater public information; and, second, to the need for far greater official secrecy.
+
+**I**
+
+The very word "secrecy" is repugnant in a free and open society; and we are as a people inherently and historically opposed to secret societies, to secret oaths and to secret proceedings. We decided long ago that the dangers of excessive and unwarranted concealment of pertinent facts far outweighed the dangers which are cited to justify it. Even today, there is little value in opposing the threat of a closed society by imitating its arbitrary restrictions. Even today, there is little value in insuring the survival of our nation if our traditions do not survive with it. And there is very grave danger that an announced need for increased security will be seized upon by those anxious to expand its meaning to the very limits of official censorship and concealment. That I do not intend to permit to the extent that it is in my control. And no official of my Administration, whether his rank is high or low, civilian or military, should interpret my words here tonight as an excuse to censor the news, to stifle dissent, to cover up our mistakes or to withhold from the press and the public the facts they deserve to know.
+
+But I do ask every publisher, every editor, and every newsman in the nation to reexamine his own standards, and to recognize the nature of our country's peril. In time of war, the government and the press have customarily joined in an effort based largely on self-discipline, to prevent unauthorized disclosures to the enemy. In time of "clear and present danger," the courts have held that even the privileged rights of the First Amendment must yield to the public's need for national security.
+
+Today no war has been declared--and however fierce the struggle may be, it may never be declared in the traditional fashion. Our way of life is under attack. Those who make themselves our enemy are advancing around the globe. The survival of our friends is in danger. And yet no war has been declared, no borders have been crossed by marching troops, no missiles have been fired.
+
+If the press is awaiting a declaration of war before it imposes the self-discipline of combat conditions, then I can only say that no war ever posed a greater threat to our security. If you are awaiting a finding of "clear and present danger," then I can only say that the danger has never been more clear and its presence has never been more imminent.
+
+It requires a change in outlook, a change in tactics, a change in missions--by the government, by the people, by every businessman or labor leader, and by every newspaper. For we are opposed around the world by a monolithic and ruthless conspiracy that relies primarily on covert means for expanding its sphere of influence--on infiltration instead of invasion, on subversion instead of elections, on intimidation instead of free choice, on guerrillas by night instead of armies by day. It is a system which has conscripted vast human and material resources into the building of a tightly knit, highly efficient machine that combines military, diplomatic, intelligence, economic, scientific and political operations.
+
+Its preparations are concealed, not published. Its mistakes are buried, not headlined. Its dissenters are silenced, not praised. No expenditure is questioned, no rumor is printed, no secret is revealed. It conducts the Cold War, in short, with a war-time discipline no democracy would ever hope or wish to match.
+
+Nevertheless, every democracy recognizes the necessary restraints of national security--and the question remains whether those restraints need to be more strictly observed if we are to oppose this kind of attack as well as outright invasion.
+
+For the facts of the matter are that this nation's foes have openly boasted of acquiring through our newspapers information they would otherwise hire agents to acquire through theft, bribery or espionage; that details of this nation's covert preparations to counter the enemy's covert operations have been available to every newspaper reader, friend and foe alike; that the size, the strength, the location and the nature of our forces and weapons, and our plans and strategy for their use, have all been pinpointed in the press and other news media to a degree sufficient to satisfy any foreign power; and that, in at least in one case, the publication of details concerning a secret mechanism whereby satellites were followed required its alteration at the expense of considerable time and money.
+
+The newspapers which printed these stories were loyal, patriotic, responsible and well-meaning. Had we been engaged in open warfare, they undoubtedly would not have published such items. But in the absence of open warfare, they recognized only the tests of journalism and not the tests of national security. And my question tonight is whether additional tests should not now be adopted.
+
+The question is for you alone to answer. No public official should answer it for you. No governmental plan should impose its restraints against your will. But I would be failing in my duty to the nation, in considering all of the responsibilities that we now bear and all of the means at hand to meet those responsibilities, if I did not commend this problem to your attention, and urge its thoughtful consideration.
+
+On many earlier occasions, I have said--and your newspapers have constantly said--that these are times that appeal to every citizen's sense of sacrifice and self-discipline. They call out to every citizen to weigh his rights and comforts against his obligations to the common good. I cannot now believe that those citizens who serve in the newspaper business consider themselves exempt from that appeal.
+
+I have no intention of establishing a new Office of War Information to govern the flow of news. I am not suggesting any new forms of censorship or any new types of security classifications. I have no easy answer to the dilemma that I have posed, and would not seek to impose it if I had one. But I am asking the members of the newspaper profession and the industry in this country to reexamine their own responsibilities, to consider the degree and the nature of the present danger, and to heed the duty of self-restraint which that danger imposes upon us all.
+
+Every newspaper now asks itself, with respect to every story: "Is it news?" All I suggest is that you add the question: "Is it in the interest of the national security?" And I hope that every group in America--unions and businessmen and public officials at every level-- will ask the same question of their endeavors, and subject their actions to the same exacting tests.
+
+And should the press of America consider and recommend the voluntary assumption of specific new steps or machinery, I can assure you that we will cooperate whole-heartedly with those recommendations.
+
+Perhaps there will be no recommendations. Perhaps there is no answer to the dilemma faced by a free and open society in a cold and secret war. In times of peace, any discussion of this subject, and any action that results, are both painful and without precedent. But this is a time of peace and peril which knows no precedent in history.
+
+**II**
+
+It is the unprecedented nature of this challenge that also gives rise to your second obligation--an obligation which I share. And that is our obligation to inform and alert the American people--to make certain that they possess all the facts that they need, and understand them as well--the perils, the prospects, the purposes of our program and the choices that we face.
+
+No President should fear public scrutiny of his program. For from that scrutiny comes understanding; and from that understanding comes support or opposition. And both are necessary. I am not asking your newspapers to support the Administration, but I am asking your help in the tremendous task of informing and alerting the American people. For I have complete confidence in the response and dedication of our citizens whenever they are fully informed.
+
+I not only could not stifle controversy among your readers--I welcome it. This Administration intends to be candid about its errors; for as a wise man once said: "An error does not become a mistake until you refuse to correct it." We intend to accept full responsibility for our errors; and we expect you to point them out when we miss them.
+
+Without debate, without criticism, no Administration and no country can succeed--and no republic can survive. That is why the Athenian lawmaker Solon decreed it a crime for any citizen to shrink from controversy. And that is why our press was protected by the First Amendment-- the only business in America specifically protected by the Constitution- -not primarily to amuse and entertain, not to emphasize the trivial and the sentimental, not to simply "give the public what it wants"--but to inform, to arouse, to reflect, to state our dangers and our opportunities, to indicate our crises and our choices, to lead, mold, educate and sometimes even anger public opinion.
+
+This means greater coverage and analysis of international news--for it is no longer far away and foreign but close at hand and local. It means greater attention to improved understanding of the news as well as improved transmission. And it means, finally, that government at all levels, must meet its obligation to provide you with the fullest possible information outside the narrowest limits of national security--and we intend to do it.
+
+**III**
+
+It was early in the Seventeenth Century that Francis Bacon remarked on three recent inventions already transforming the world: the compass, gunpowder and the printing press. Now the links between the nations first forged by the compass have made us all citizens of the world, the hopes and threats of one becoming the hopes and threats of us all. In that one world's efforts to live together, the evolution of gunpowder to its ultimate limit has warned mankind of the terrible consequences of failure.
+
+And so it is to the printing press--to the recorder of man's deeds, the keeper of his conscience, the courier of his news--that we look for strength and assistance, confident that with your help man will be what he was born to be: free and independent.
+
+![](/common/images/home_bottom_shadow.png)
+
+JOHN F. KENNEDY PRESIDENTIAL LIBRARY AND MUSEUM  
+Columbia Point, Boston MA 02125 [(617) 514-1600](tel:+16175141600)
+
+  * [Our Partners](http://www.jfklibrary.org/About-Us/JFK-Library-Foundation/Our-Partners.aspx)
+  * [Sign up for eNews](http://www.jfklibrary.org/About-Us/News-and-Press/Sign-up-for-JFK-eNews.aspx)
+  * [Contact Us](http://www.jfklibrary.org/About-Us/Contact-Us.aspx)
+  * [Museum Information](http://www.jfklibrary.org/Visit/Admission-and-Museum-Information.aspx)
+  * Find us on: 
+  *   *   *   *   *   
+
+
+
+--|Measurement and Signature Intelligence|--
+Electro-optical MASINT
+Airborne Electro-Optical Missile Tracking MASINT
+Tactical Countermortar Sensors
+Infrared MASINT
+Optical Measurement of Nuclear Explosions
+LASER MASINT
+Spectroscopic MASINT
+Hyperspectral Imagery MASINT
+Space-based Staring Infrared Sensors
+Nuclear MASINT
+Radiation survey and dosimetry
+Space-based Nuclear Energy Detection
+Effects of Ionizing Radiation on materials
+Geophysical MASINT
+Weather and Sea Intelligence MASINT
+Acoustic MASINT
+
+Show that there is exactly one positive $k$ such that no graph contains exactly $k$ spanning trees.
+
+Participating Agencies: Central Intelligence Agency (CIA), Defense Intelligence Agency (DIA), Department of Energy (DOE), Department of Homeland Security (DHS), National Air and Space Intelligence Center (NASIC), National Geospatial-Intelligence Agency (NGA), National Security Agency (NSA), Naval Intelligence Activity and Office of the Director of National Intelligence (auditorium presentation only)
+
+
+The NSA’s SKYNET program may be killing thousands of innocent people
+
+by Christian Grothoff, arstechnica.co.ukFebruary 16 02:35 AM
+
+In 2014, the former director of both the CIA and NSA proclaimed that "we kill people based on metadata." Now, a new examination of previously published Snowden documents suggests that many of those people may have been innocent.
+
+Last year, The Intercept published documents detailing the NSA's SKYNET programme. According to the documents, SKYNET engages in mass surveillance of Pakistan's mobile phone network, and then uses a machine learning algorithm on the cellular network metadata of 55 million people to try and rate each person's likelihood of being a terrorist.
+
+Patrick Ball—a data scientist and the director of research at the Human Rights Data Analysis Group—who has previously given expert testimony before war crimes tribunals, described the NSA's methods as "ridiculously optimistic" and "completely bullshit." A flaw in how the NSA trains SKYNET's machine learning algorithm to analyse cellular metadata, Ball told Ars, makes the results scientifically unsound.
+
+Somewhere between 2,500 and 4,000 people have been killed by drone strikes in Pakistan since 2004, and most of them were classified by the US government as "extremists," the Bureau of Investigative Journalism reported. Based on the classification date of "20070108" on one of the SKYNET slide decks (which themselves appear to date from 2011 and 2012), the machine learning program may have been in development as early as 2007.
+
+In the years that have followed, thousands of innocent people in Pakistan may have been mislabelled as terrorists by that "scientifically unsound" algorithm, possibly resulting in their untimely demise.
+
+The siren song of big data
+
+SKYNET works like a typical modern Big Data business application. The program collects metadata and stores it on NSA cloud servers, extracts relevant information, and then applies machine learning to identify leads for a targeted campaign. Except instead of trying to sell the targets something, this campaign, given the overall business focus of the US government in Pakistan, likely involves another branch of the US government—the CIA or military—that executes their "Find-Fix-Finish" strategy using Predator drones and on-the-ground death squads.
+
+
+
+The U.S. government's efforts to recruit talented hackers could suffer from the recent revelations about its vast domestic surveillance programs, as many private researchers express disillusionment with the National Security Agency. Though hackers tend to be anti-establishment by nature, the NSA and other intelligence agencies had made major inroads in recent years in hiring some of the best and brightest, and paying for information on software flaws that help them gain access to target computers and phones.
+
+
+
+
+But at the larger and less expensive Def Con, where attendance is expected to top last year's 15,000, conference founder and government advisor Jeff Moss asked federal agents to stay away.
+
+
+"I haven't seen this level or sort of animosity since the 90s," Moss said in an interview. "If you aren't going to say anything in these circumstances, then you never are."
+
+
+The NSA's surveillance programs target foreigners outside the United States who pose potential threats to U.S. security or who can provide intelligence for foreign policies. But the secret projects also scooped up huge amounts of American data, according to documents leaked by Snowden, triggering sharp criticism from many lawmakers and civil liberties advocates.
+
+
+Alexander took a conciliatory\footnote{Dude’s nose turned so brown so fast. Guys he don’t be so mad thought we were friends hey.} tone during his Black Hat speech, defending the NSA but saying he looked forward to a discussion about how it could do things better.
+
+
+Peiter Zatko, a hacker hero who funded many small projects from a just-departed post at the Pentagon's Defense Advanced Research Projects Agency, told another large audience that he was unhappy with the surveillance programs and that "challenging the government is your patriotic duty."
+
+
+"I don't think anyone should believe anything they tell us," former NSA hacker Charlie Miller said of top intelligence officials. "I wouldn't work there anymore."
+
+
+Closest to home for many hackers are the government's aggressive prosecutions under the Computer Fraud and Abuse Act, which has been used against Internet activist Aaron Swartz, who committed suicide in January, and U.S. soldier Bradley Manning, who leaked classified files to anti-secrecy website WikiLeaks.
+
+
+If there is any silver lining, Moss said, it is that before Snowden's leaks, it had been impossible to have an informed discussion about how to balance security and civil liberties without real knowledge of government practices.
+
+
+http://www.wired.com/2012/07/nsa-chief-denies-dossiers/
+
+In discussing the need to develop better methods to protect networks from intrusions, Alexander said, “Some of you . . . can help us show the world that you can actually do intrusion detection and prevention systems and ensure civil liberties and privacy. Showing that to the world is absolutely important because we can do both and we need to do both.”
+
+Responding to a question from DefCon founder Jeff Moss asking “does the NSA really keep a file on everyone?,” Alexander replied, “No, we don’t. Absolutely no. And anybody who would tell you that we’re keeping files or dossiers on the American people knows that’s not true.”
+
+http://www.wired.com/author/kimzetter/
+
+AUTHOR: KIM ZETTER. KIM ZETTER	
+
+https://www.moveline.com/corporate-relocation
+
+http://youtu.be/9vN6DHB6bJc
+
+http://harvardlawreview.org/2013/05/the-dangers-of-surveillance/
+
+
+https://db.tt/4M1zwRuF
+
+http://m.bleacherreport.com/articles/2618697-marshawn-lynch-and-hugh-jackman-coach-football-for-oakland-tech-high-school?utm_source=twitter.com&utm_medium=referral&utm_campaign=programming-national?is_shared=true
+
+This is an introduction to general anthropology and its major subfields, including archaeology, linguistics, cultural anthropology, biological anthropology, and applied anthropology. The history of anthropology will be discussed as well as the contributions of major anthropologists and their approaches to the discipline.
+
+http://www.thenation.com/article/wrong-moral-revolution-michael-barnett/
+
+
+Approximately 50 percent of the questions involve calculus and its applications — subject matter that is assumed to be common to the backgrounds of almost all mathematics majors.
+
+https://www.washingtonpost.com/posteverything/wp/2014/07/09/men-really-need-to-stop-calling-women-crazy/
+
+http://matan-matika.tumblr.com/post/123407040861/kuratowski-graphs
+
+http://spring-of-mathematics.tumblr.com/post/125312997574/platonic-graph
+
+http://copingwithcomputers.tumblr.com/post/126611847998/counting-triangles
+
+http://kaynato.tumblr.com/post/130430894828/large-photos-are-capital-letters-horizontally
+
+http://kaynato.tumblr.com/post/130441166383/final-elaboration-on-the-4-graph-octahedral-space
+
+http://atnastacia.tumblr.com/post/133134572414/this-is-not-a-tree-it-contains-a-cycle
+
+http://matan-matika.tumblr.com/post/137776022441/graph-coloring
+
+http://thousandmaths.tumblr.com/post/137829560726/graphs-vectors-and-matrices-part-1
+
+http://matan-matika.tumblr.com/post/138047241343/the-good-will-hunting-problem
+
+With category theory, this discovery can be expressed in what has to be one of the most satisfying formulas of all time: \( P \xrightarrow{\quad f \quad} \mathbb{R}^{2} \)
+
+Category theory is also, in some sense, a continuation of the work of Emmy Noether (one of Mac Lane’s teachers) in formalizing abstract processes; Noether realized that understanding a type of mathematical structure requires understanding the processes that preserve that structure. To achieve this understanding, Eilenberg and Mac Lane proposed an axiomatic formalization of the relation between structures and the processes that preserve them.
+
+the tensor product satisfies a certain categorical universal property
+
+the tensor product of modules is associative up to an isomorphism
+
+we can't expect too many general theorems in category theory to be really interesting (since anything you can prove about a general category will have to be true of almost everything in maths)
+
+or the collection of all such structures with their obvious structure preserving mappings forms a category
+
+almost any structure either is a category
+
+category theory identifies many similar aspects in very different areas of mathematics
+
+provides a common language to almost all of mathematics
+
+"I didn't invent categories to study functors; I invented them to study natural transformations."
+
+What is category theory useful for? - Mathematics Stack Exchange 
+Annotator
+Kristi Short
+Date & Time
+Feb 15, 2016 19:55:05
+Document
+Click here to view annotated document
+
+Modern algebraic geometry is not possible without category theory. – Mohan Feb 24 '13 at 5:44
+
+On the most superficial level it provides a common language to almost all of mathematics and in that respect its importance as a language can be likened to the importance of basic set theory as a language to speak about mathematics. 
+
+In more detail, category theory identifies many similar aspects in very different areas of mathematics and thus provides a common unifying language. 
+The fact that almost any structure either is a category, or the collection of all such structures with their obvious structure preserving mappings forms a category, means that we can't expect too many general theorems in category theory to be really interesting (since anything you can prove about a general category will have to be true of almost everything in maths). 
+
+However, some general truths can be found to be quite useful and labour saving. 
+
+For instance, proving that the tensor product of modules is associative up to an isomorphism can be quite daunting if done by working with the construction of the tensor product. 
+But, if instead one observes first that the tensor product satisfies a certain categorical universal property then the associativity up to isomorphism becomes immediate since in any category any universal construction is unique up to an isomorphism.
+
+Continuing the analogy between set theory and category theory as common languages for maths, the situation is like saying "a set is just a bunch of points. No structure. Nothing. How interesting and relevant can it possibly be to study set theory?". As it turns out it is both interesting and very important to the rest of mathematics. It is very helpful to know the basics of cardinals and ordinals, Zorn's Lemma, and similar techniques to actually prove things in other areas. 
+The exact same phenomenon is true in category theory. True, a category is just a bunch of points and arrows and a composition rule, but it turns out that it is helpful to know the basics of functors, duality, adjunctions, (co)limits and so on when actually proving things.
+
+Less superficially, category theory encourages a change of shift in attention to what structure is.
+In category theory the particular inner workings of an object do not matter at all. All that matters is how that object is related (via the morphisms) to the other objects in the category.
+
+This is a familiar situation in very classical mathematics. For instance, one can construct the real numbers in many ways (Dedekind cuts, Cauchy completion etc.). These are different objects, but they are essentially the same. Just what this essential sameness means is answered very clearly by category theory: these are different solutions to the same universal problem.
+
+Category theory allows to make precise the meaning of a certain construction being natural.
+A classical example is that for a finite dimensional vector space V , the double dual is naturally isomorphic to V . Of course, V ∗∗ and V are isomorphic simply because they have the same dimension, 
+but that is not the content of the statement. 
+Usually, something is mumbled about the lack of arbitrary choices, but that is not really satisfactory. 
+Eilenberg and Mac Lane defined categories in order to define functors, and defined functors in order to define natural transformations. 
+The naturality of natural transformations gives a precise definition for natural constructions of all sorts, making it very clear what the naturality means, and how to prove naturality.
+
+Category theory is extremely useful for talking about invariants of structure.
+
+The classical Seifert-van Kampen theorem for computing the fundamental group was rather tricky to prove. However, if simply restated using category theory a very clear path suggests itself and leads to a very simple proof.
+
+Modern homotopy theory was radically transformed by category theory, particularly the famous result of Quillen. Quillen described a certain kind of equivalence between two categories: the category of topological spaces and the category of simplicial sets. The importance of this equivalence to modern homotopy theory is immense and leads further the study of ∞-categories.
+Other areas where categories have had a profound effect are algebraic geometry (the work of Grothendieck) and logic (in the form of topos theory).
+
+
+Category theory is not something instead of other mathematical theories but an other and very interacting perspective.
+
+Naturality is a categorical notion, and requires being very precise about exactly what data is given – the torus as a space that happens to be a product (in the category of spaces and continuous maps) is different from the torus presented as a product (in the category of products of two spaces and continuous maps between the respective components).
+
+The remarkable thing is understanding never stays put. It is important always to get a new understanding ... ... ... understanding can be improved
+
+The equivalence relation defined above produces a partition of the vertex set of every graph G into equivalence relations. 
+
+oss-security - It essentially wins crypto vulnerability bingo! gilfether/phpcrypt
+
+Thus G = (V, E) is isomorphic to G f = (V', E') if there is a bijection ¢: V -> V' such that xy E E iff ¢(x)¢(y)EE'. Clearly isomorphic graphs have the same order and size
+
+The size of a graph of order n is at least 0 and at most (2). Clearly for every m, 0 S m S (2), there is a graph G(n, m). A graph of order n and size (2) is called a complete n-graph and is denoted by Kn; an empty n-graph En has order n and no edges. In K" every two vertices are adjacent, while in En no two vertices are adjacent. The graph Kl = El is said to be trivial
+
+Two graphs are isomorphic if there is a correspondence between their vertex sets that preserves adjacency.
+
+Thus G = (V, E) is isomorphic to G f = (V', E') if there is a bijection ¢: V -> V' such that xy E E iff ¢(x)¢(y)EE'. Clearly isomorphic graphs have the same order and size
+
+The size of a graph of order n is at least 0 and at most (2). Clearly for every m, 0 S m S (2), there is a graph G(n, m). A graph of order n and size (2) is called a complete n-graph and is denoted by Kn; an empty n-graph En has order n and no edges. In K" every two vertices are adjacent, while in En no two vertices are adjacent. The graph Kl = El is said to be trivial
+
+All the propositions in projective geometry occur in dual pairs which have the property that, starting from either proposition of a pair, the other can be immediately inferred by interchanging the parts played by the words "point" and "line." The principle was enunciated by Gergonne (1825-1826; Cremona 1960, p. x). A similar duality exists for reciprocation as first enunciated by Poncelet (1817-1818; Casey 1893; Lachlan 1893; Cremona 1960, p. x).
+
+A graph G is an ordered pair (V, E) of disjoint ﬁnite sets such that E is a subset of the set of unordered pairs of V . We call V = V (G) the vertices of G and E = E(G) the edges of G. An edge {x, y} in E is said to join the vertices x and y and denoted by xy. We call x and y the end-vertices of the edge xy. Two vertices x and y are called adjacent if xy is an edge of G. The order of G is the cardinality of V , the size of G is the cardinality of E.
+
+Exponential time hypothesis
+
+In computational complexity theory, the exponential time hypothesis is an unproven computational hardness assumption that was formulated by Impagliazzo & Paturi (1999). 
+
+The hypothesis states that 3-SAT (or any of several related NP-complete problems) cannot be solved in subexponential time in the worst case.
+
+The exponential time hypothesis, if true, would imply that P ≠ NP. 
+
+It can be used to show that many computational problems are equivalent in complexity, in the sense that if one of them has a subexponential time algorithm then they all do.
+
+"All genocides begin with an ideology — a system of ideas that says:  This group of people here, they are less than human and they deserve to be exterminated.
+
+When we passed an inclusive constitution that transcends politics based on division and entrenched the rights of women as full partners in nation-building, for the first time — we were choosing to be together.
+
+When we award scholarships and appoint public servants based on merit, without discrimination — we are being accountable. 
+
+When we sanction an official, no matter how high-ranking, who abuses their power or engages in corruption — we are being accountable."
+
+~ Paul Kagame Kigali, President of Rwanda 20 Years after the Genocide of the Tutsi,  April 7, 2014.
+
+
+“The Geometry Junkyard: All Topics”
+
+https://www.ics.uci.edu/~eppstein/junkyard/all.html
+
+“MathEduc”
+
+http://www.zentralblatt-math.org/matheduc/en/?q=an:06060304
+
+“GeomSpace download | SourceForge.net”
+
+http://sourceforge.net/projects/geomspace/
+
+“CaRMetal for Mac, Compass and Ruler (C.a.R.) is a dynamic geometry software.”
+
+http://macdownload.informer.com/carmetal/
+
+[LattE Software](https://www.math.ucdavis.edu/~latte/software.php)
+
+
+https://www.slideshare.net/MasumBillal1/week1-47820827?from_m_app=ios
+
+“The Wronskian of two differentiable functions f  and g is W(f, g) = f g′ – g f ′.
+
+More generally, for n real- or complex-valued functions f1, . . . , fn, which are n – 1 times differentiable on an interval I, the Wronskian W(f1, . . . , fn) as a function on I is defined by”
+
+https://en.wikipedia.org/wiki/Wronskian
+
+“Here we formally define the SIS and LWE problems and recall the theorems which say that these
+
+problems are at least as hard to solve as certain worst-case lattice problems. We also cover their more
+
+compact and efficient ring-based analogues, ring-SIS and ring-LWE.”
+
+Excerpt From: Unknown. “9810474A-F810-45A5-B84D-21D6AB367569-9700-00000F1B92C92EF4.” iBooks. 
+This material may be protected by copyright.
+
+“On the other hand, some cryptosystems are malleable by design. In other words, in some circumstances it may be viewed as a feature that anyone can transform an encryption of  into a valid encryption of  (for some restricted class of functions ) without necessarily learning . Such schemes are known as homomorphic encryption schemes.”
+
+https://en.m.wikipedia.org/wiki/Malleability_(cryptography)
+
+Since Abel's identity relates the different linearly independent solutions of the differential equation, it can be used to find one solution from the other. It provides useful identities relating the solutions, and is also useful as a part of other techniques such as the method of variation of parameters. It is especially useful for equations such as Bessel's equation where the solutions do not have a simple analytical form, because in such cases the Wronskian is difficult to compute directly.
+
+A generalisation to first-order systems of homogeneous linear differential equations is given by Liouville's formula.
+
+In the context of infinite-dimensional vector spaces over the real or complex numbers, the term Hamel basis (named after Georg Hamel) or algebraic basis can be used to refer to a basis as defined in this article. This is to make a distinction with other notions of "basis" that exist when infinite-dimensional vector spaces are endowed with extra structure. The most important alternatives are orthogonal bases on Hilbert spaces, Schauder bases and Markushevich bases on normed linear spaces. The term Hamel basis is also commonly used to mean a basis for the real numbers R as a vector space over the field Q of rational numbers. (In this case, the dimension of R over Q is uncountable, specifically the continuum, the cardinal number 2ℵ0.)
+
+The common feature of the other notions is that they permit the taking of infinite linear combinations of the basic vectors in order to generate the space. This, of course, requires that infinite sums are meaningfully defined on these spaces, as is the case for topological vector spaces – a large class of vector spaces including e.g. Hilbert spaces, Banach spaces or Fréchet spaces.
+
+The preference of other types of bases for infinite-dimensional spaces is justified by the fact that the Hamel basis becomes "too big" in Banach spaces: If X is an infinite-dimensional normed vector space which is complete (i.e. X is a Banach space), then any Hamel basis of X is necessarily uncountable. This is a consequence of the Baire category theorem. The completeness as well as infinite dimension are crucial assumptions in the previous claim. Indeed, finite-dimensional spaces have by definition finite bases and there are infinite-dimensional (non-complete) normed spaces which have countable Hamel bases. Consider , the space of the sequences  of real numbers which have only finitely many non-zero elements, with the norm  Its standard basis, consisting of the sequences having only one non-zero element, which is equal to 1, is a countable Hamel basis.
+
+“Extending to a basis[edit]
+Let S be a subset of a vector space V. To extend S to a basis means to find a basis B that contains S as a subset. This can be done if and only if S is linearly independent. Almost always, there is more than one such B, except in rather special circumstances (i.e. S is already a basis, or S is empty and V has two elements).
+
+A similar question is when does a subset S contain a basis. This occurs if and only if S spans V. In this case, S will usually contain several different bases.
+
+”
+
+https://en.wikipedia.org/wiki/Basis_(linear_algebra)A basis B of a vector space V over a field F is a linearly independent subset of V that spans V.
+
+In more detail, suppose that B = { v1, …, vn } is a finite subset of a vector space V over a field F (such as the real or complex numbers R or C). Then B is a basis if it satisfies the following conditions:
+
+the linear independence property,
+for all a1, …, an ∈ F, if a1v1 + … + anvn = 0, then necessarily a1 = … = an = 0; and
+the spanning property,
+for every x in V it is possible to choose a1, …, an ∈ F such that x = a1v1 + … + anvn.
+
+“Transformation
+
+Suppose f(z) is analytic in a domain D and C1,C2 are two arcs in D passing through z0. Let C′1,C′2 be the images of C1 and C2 under the mapping w=f(z). The angle between C1 and C2 at z0 is the angle between the tangents to the two arcs at z0, that is, the difference of the signed angles that the tangents make with the positive direction of the real axis. If f′(z0)≠0, then the angle between C1 and C2 equals the angle between C′1 and C′2 both in magnitude and sense. We then say that the mapping w=f(z) is conformal (angle-preserving) at z0.
+
+The linear transformation f(z)=az+b, a≠0, has f′(z)=a and w=f(z) maps C conformally onto C.”
+
+http://dlmf.nist.gov/1.9#Px22.p2
+
+“The Fourier transform with subsequent computation of absolute values is a translation-invariant operator.
+The mapping from a polynomial function to the polynomial degree is a translation-invariant functional.
+The Lebesgue measure is a complete translation-invariant measure.”
+
+https://en.wikipedia.org/wiki/Translational_symmetry
+
+Although determining the shortest basis is possibly an NP-complete problem, algorithms such as the LLL algorithm can find a short (not necessarily shortest) basis in polynomial time with guaranteed worst-case performance.
+
+[XRDS: Article](http://xrds.acm.org/article.cfm?aid=2730916)
+
+> XRDS: Article
+
+
+“Here are a few more: (Everything between quotation marks is a false belief.)
+
+Basic logic: Among students: "If A implies B then B implies A" (or "if A implies B then not A implies not B").
+
+Even among mature mathematicians a frequent false belief is to forget that the conclusion of a theorem need not hold once the conditions of the theorem fail. Another common frequent belief is to assume that once the conditions fail then the conclusion must fail too.
+
+Calculus: "The derivative of a differentiable function is continuous."
+
+"An infinite series whose general term tend to 0 is convergent."
+
+Geometry: "The circle is the only figure which has the same width in all directions." (Feynmann regarded this mistake as one reason for the space shuttle Challenger disaster).
+
+Polytopes: Often people believe that "given a convex polytope P you can slightly move the vertices to rational positions keeping the structure of the polytope unchanged."
+
+(From Udi de Shalit): Some people believe that "if you hold a cube along a main diagonal, the remaining vertices all lie on a plane." Some even say that their number is 4.
+
+Algebra (Also from Udi) "I have encountered many misconceptions about solvability by radicals. Some people think that 'the solution of an irreducible equation of degree 5 and higher, say over Q, is never expressible by radicals'. Some amateur mathematicians even say that 'equations of degree 5 and higher have no solutions'."
+
+Probability: "If you play the casino patiently and carefully you will win in the long run" (and "you do not believe that?, this is my own experience on the matter!" and "Indeed when I am calm and patient I win, but when I lose my temper I lose big time".)
+
+"an event which may occur has positive probability": (not true for infinite probability spaces)
+
+Various places: "If you want to prove that a certain infinite structure exists it is enough to show that there is no upper bound to the sizes of such structures."
+
+Combinatorics: "This is a finite problem, surely you can solve it with a computer."
+
+"Hall marriage theorem is very nice and I am surprised no combinatorialist bothered to extend it to a matching built from triples instead of pairs." (It is unlikely that a general characteriztion when a hypergraph built from triples has a perfect matching (of triangles) will be found.)
+
+Computer science: "It is known that quantum computers can solve NP complete problems in polynomial time."
+
+share improve this answer”
+
+http://mathoverflow.net/questions/23478/examples-of-common-false-beliefs-in-mathematics
+
+“Convert PDF File into TeX Format - Aspose.Pdf for .NET - Documentation - Aspose.com”
+
+http://www.aspose.com/docs/display/pdfnet/Convert+PDF+File+into+TeX+Format
+
+“Convert PDF File into TeX Format - Aspose.Pdf for .NET - Documentation - Aspose.com”
+
+http://www.aspose.com/docs/display/pdfnet/Convert+PDF+File+into+TeX+Format
+
+https://www.quora.com/?digest_story=1693368
+
+Regularity Lemma roughly states that Every large enough graph can be approximated by random graphs. This is in the sense that every graph can be partitioned into a bounded number of equal parts such that:
+1. Most edges run between different parts
+2. And that these edges behave as if generated at random.
+
+For those who work in Analysis or even signal processing, a first look at the statement of the regularity lemma above reminds one  of the Fourier series.  While this is extremely simplified – It’s not entirely incorrect to say  that it points in part to a deeper relationship between combinatorics  and analysis. His work solidified this connection. 
+
+He also gave a generalized version of Szemeredi's Theorem which is a very important result with consequences in many areas of mathematics (like Ergodic Theory, Number Theory etc). Endre Szemeredi was given the Abel Prize this year! 
+
+I must mention another thing that I find very fascinating. In The Szemeredi Regularity Lemma for which I mentioned a very approximate statement above. In the proof one proceeds in the following way:  We  start with an initial partition of the graph (with low potential - a quantity that gives the quality of each partition) and then  iteratively refine the partition in such a way that the potential  increases to a point such that the partition is epsilon regular (a condition to say that the partition is good enough).  However, this leads to a major problem – In refining the partitions iteratively the number of  classes increases exponentially in each iteration. We then end up with a  partition in which the number of classes is a tower function – usually  an astronomical figure.
+
+For a long time it was thought that such a  tower function was perhaps not necessary and it was the side effect of Szemeredi's proof. But Gowers actually constructed an example that showed that such a tower was actually necessary. (see here: Geometric And Functional Analysis, Volume 7, Number 2 ). This was an insane example to me - That somebody could actually construct such an example!
+
+“Everyone knows what a curve is, until he has studied enough mathematics to become confused through the countless number of possible exceptions", F. Klein (from Reed & Simon: Methods of modern mathematical physics)”
+
+http://mathoverflow.net/questions/7155/famous-mathematical-quotes
+
+“
+Tex to md
+pandoc -s example4.tex -o example5.text”
+
+http://pandoc.org/demos.html
+
+“CTAN: Package bibtopic”
+
+https://www.ctan.org/pkg/bibtopic
+
+Matroids[edit]
+Generalizing the definition of the span of points in space, a subset X of the ground set of a matroid is called a spanning set if the rank of X equals the rank of the entire ground set.
+
+For the torus, the constraint on the free group in two letters is given by . This constraint is trivially embodied in the action on the plane given above. Alternately, the plane can be tiled by hexagons, and the centers of the hexagons form a hexagonal lattice. Identifying opposite edges of the hexagon again leads to the torus, this time, with the constraint  describing the action of the hexagonal lattice generators on the plane.
+
+In practice, most of the interesting cases are surfaces with negative curvature, and are thus realized by a discrete lattice  in the group  acting on the upper half-plane. Such lattices are known as Fuchsian groups.
+
+Details matter.
+
+As @Ricky points out, showing truncated HMAC values won't help the attacker finding the secret key, compared to a similar situation where the HMAC values would not be truncated. This makes sense: the truncation only removes information.
+
+However, the attacker is not ultimately after the secret key. What the attacker really wants is to make forgeries, i.e. compute some HMAC values that the computer will accept as its own. Finding out the secret key allows making forgeries, but the ability to make forgeries does not necessarily entail knowledge of the private key.
+
+Fortunately, HMAC tends to behave like a PRF, so there are two known methods to make a forgery:
+
+Perform a brute force enumeration of possible keys until the right one is found (one that matches a few known value+HMAC pairs). This attack is defeated by choosing the key is in space large enough to make the enumeration unrealistic (i.e. you generate a 128-bit key with a cryptographically strong PRNG).
+
+Luck. The attacker sends a random sequence of bits as HMAC value and hopes that it will work. This attack is defeated by not truncating HMAC values to too small a length, and/or applying other mitigations such as allowing only one try and irrevocably rejecting devices that once showed even a single bogus HMAC value (as you do).
+
+The "luck" attack works with probability 2-n, where n is the size (in bits) of your truncated HMAC output. I.e. with a 32-bit output, then a luck-based forgery has probability 1 in 4 billions or so to go undetected. This is the best that can be done with a 32-bit output, in all generality; that HMAC behaves as a PRF means that it is "optimal" in that respect. If you truncate to 8 bits, then the attack success probability is 1 in 256, which is probably too much for comfort. But this is your decision to make, based on your usage context.
+
+Also (again as @Ricky points out), beware of replay attacks. A valid MAC, assuming that there was no forgery, only demonstrates to the computer that it saw and "approved" the message contents at some point -- but not that it was the last message that it saw. Old message-HMAC pairs can be sent again by a fake device. To defeat replay attacks, you must maintain some state on the computer (the computer must remember something about the device, e.g. a "message sequence number", that is part of the data over which the MAC is computed, and incremented for each message).
+
+[Quantum Crypto Just Pretty Good](http://www.technologyreview.com/view/428202/quantum-cryptography-outperformed-by-classical-technique/)
+
+[PRESERVING PRIVACY IN THE INFORMATION SOCIETY](http://www.unesco.org/webworld/infoethics_2/eng/papers/paper_10.htm)
+
+> PRESERVING PRIVACY IN THE INFORMATION SOCIETY
+
+
+“Kamikaze Girls - Wikipedia, the free encyclopedia”
+
+https://en.wikipedia.org/wiki/Kamikaze_Girls
+
+pandoc -f latex -t mediawiki -o outputfile inputfile.tex
+
+# Title:   Linear independence - Wikipedia, the free encyclopedia
+
+## Reference:
+"In the theory of vector spaces the concept of linear dependence and linear independence of the vectors in a subset of the vector space is central to the definition of dimension. A set of vectors is said to be linearly dependent if one of the vectors in the set can be defined as a linear combination of the other vectors. If no vector in the set can be written in this way, then the vectors are said to be linearly independent.[1]
+
+A vector space can be of finite dimension or infinite dimension depending on the number of linearly independent basis vectors. The definition of linear dependence and the ability to determine whether a subset of vectors in a vector space are linearly dependent are central to determining a set of basis vectors for a vector space."
+
+### Link:
+[Linear independence - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Linear_independence )
+
+# Fundamental polygon - Wikipedia, the free encyclopedia
+[Fundamental polygon - Wikipedia, the free encyclopedia](https://en.m.wikipedia.org/wiki/Fundamental_polygon#)
+
+# Title:   Fundamental domain - Wikipedia, the free encyclopedia
+
+## Reference:
+"shows part of the construction of the fundamental domain for the action of the modular group Γ on the upper half-plane H.
+
+This famous diagram appears in all classical books on modular functions. (It was probably well known to C. F. Gauss, who dealt with fundamental domains in the guise of the reduction theory of quadratic forms.) Here, each triangular region (bounded by the blue lines) is a free regular set of the action of Γ on H. The boundaries (the blue lines) are not a part of the free regular sets. To construct a fundamental domain of H/Γ, one must also consider how to assign points on the boundary, being careful not to double-count such points. Thus, the free regular set in this example is
+
+"
+
+### Link:
+[Fundamental domain - Wikipedia, the free encyclopedia](https://en.m.wikipedia.org/wiki/Fundamental_domain# )
+
+I think the coolest psychological trick I've learned has to do with body language, because that determines about 80% of what people think about you.
+ 
+Try this one next time you want someone to identify with you:
+ 
+Make small mirroring gestures to theirs. For example, if they cross their arms wait a few seconds and cross yours. If they're leaning back with their legs crossed, wait a few moments and mirror their pose with the opposite leg. Do this a few times and then start changing your pose. If they begin to subconsciously mirror your pose, then you know that they've begun to identify with you and that they've started to feel like you have common ground. This is good for when you're trying to make new friends or if you're on an interview.
+ 
+Funny story with this one, the first time I tried this one, I did it with a coworker that I didn't know too well. We ended up literally being best friends, which wasn't my intention lol.
+
+https://scholar.google.com/scholar.bib?q=info:uV6Mbcm2s9AJ:scholar.google.com/&output=citation&scfhb=1&hl=en&ct=citation&cd=0
+
+@article{rota1997many,
+  title={The many lives of lattice theory},
+  author={Rota, Gian-Carlo},
+  journal={Notices of the AMS},
+  volume={44},
+  number={11},
+  pages={1440--1445},
+  year={1997}
+}
+
+
+[CiteSeerX — What is geometric combinatorics?](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.124.9189)
+
+@incollection{agrawal2010efficient,
+  title={Efficient lattice (H) IBE in the standard model},
+  author={Agrawal, Shweta and Boneh, Dan and Boyen, Xavier},
+  booktitle={Advances in Cryptology--EUROCRYPT 2010},
+  pages={553--572},
+  year={2010},
+  publisher={Springer}
+}
+
+@incollection{guneysu2012practical,
+  title={Practical lattice-based cryptography: A signature scheme for embedded systems},
+  author={G{\"u}neysu, Tim and Lyubashevsky, Vadim and P{\"o}ppelmann, Thomas},
+  booktitle={Cryptographic Hardware and Embedded Systems--CHES 2012},
+  pages={530--547},
+  year={2012},
+  publisher={Springer}
+}
+
+
+
+“[edit source | edit]
+Every normed vector space has a natural topological structure: the norm induces a metric and the metric induces a topology. This is a topological vector space because:
+
+The vector addition + : V × V → V is jointly continuous with respect to this topology. This follows directly from the triangle inequality obeyed by the norm.
+The scalar multiplication · : K × V → V, where K is the underlying scalar field of V, is jointly continuous. This follows from the triangle inequality and homogeneity of the norm.
+Therefore, all Banach spaces and Hilbert spaces, are examples of topological vector spaces.
+
+There are topological vector spaces whose topology is not induced by a norm, but are still of interest in analysis. Examples of such spaces are spaces of holomorphic functions on an open domain, spaces of infinitely differentiable functions, the Schwartz spaces, and spaces of test functions and the spaces of distributions on them. These are all examples of Montel spaces. On the other hand, infinite-dimensional Montel spaces are never normable.
+
+A topological field is a topological vector space over each of its subfields.”
+
+https://en.wikipedia.org/wiki/Topological_vector_space
+
+@incollection{armknecht2012shift,
+  title={Shift-type homomorphic encryption and its application to fully homomorphic encryption},
+  author={Armknecht, Frederik and Katzenbeisser, Stefan and Peter, Andreas},
+  booktitle={Progress in Cryptology-AFRICACRYPT 2012},
+  pages={234--251},
+  year={2012},
+  publisher={Springer}
+}
+
+But again, the US being the US, there’s a lot of resistance to it. Some of it comes from the flaky left, which worries about how common standards will stifle the creativity of their perfect little flower children. Some of it comes from the loony right, which worries about how it’s a federal takeover of the education system which is going to brainwash their kiddies into perfect little socialists.
+
+“Technical Reports | Department Of Mathematics, Royal Holloway, University of London”
+
+https://www.ma.rhul.ac.uk/tech
+
+2.1 Product vector spaces[edit source | edit]
+A cartesian product of a family of topological vector spaces, when endowed with the product topology, is a topological vector space. For instance, the set X of all functions f : R → R: this set X can be identified with the product space RR and carries a natural product topology. With this topology, X becomes a topological vector space, called the space of pointwise convergence. The reason for this name is the following: if (fn) is a sequence of elements in X, then fn has limit f in X if and only if fn(x) has limit f(x) for every real number x. This space is complete, but not normable: indeed, every neighborhood of 0 in the product topology contains lines, i.e., sets K f for f ≠ 0.
+
+The key exchange will take place between two devices. There will be an initiator for the key exchange designated as (I) and a respondent designated as (R). Both I and R know, q, n, a(x), and have the ability to generate small polynomials according to the distribution D. The description which follows does not contain any explanation of why the key exchange results in the same key at both ends of a link. Rather, it succinctly specifies the steps to be taken. For a thorough understanding of why the key exchange results in the initiator and responder having the same key, the reader should look at the referenced works by Peikert and Singh.[2][3]
+
+The key exchange begins with the initiator (I) doing the following:
+
+Initiator's First Steps:
+
+Generate two small polynomials sI(x) and eI(x) by sampling from the distribution D.
+Compute tI(x) = a(x)·sI(x) + eI(x).
+The initiator sends the polynomial tI(x) to the Responder.
+Respondent's Steps:
+
+Generate two small polynomials sR(x) and eR(x) by sampling from the distribution D.
+Compute v(x) = tI(x)·sR(x) + eR(x) Note that v(x) = a(x)sI(x)sR(x) + eI(x)sR(x) + eR(x) and that eR(x) + eI(x)sR(x) will be small because eR(x) was chosen to be small and the coefficients of eI(x)sR(x) will be bounded in their growth and still relatively small.
+The distribution of the coefficients of v(x) are smoothed by looping through the coefficients and randomly adjusting certain values. For j = 0 to n-1:
+If vj = 0, draw a random bit (b). If b = 0 then vj = 0 otherwise vj = q-1
+If vj = (q-1)/4, draw a random bit (b). If b = 0 then vj = (q-1)/4 otherwise vj = (q+3)/4
+Two n-long bit streams, cj, and uj, are formed from the coefficients of v(x), (vn-1, ... , v0 ), via "Cross Rounding" and "Modular Rounding" respectively. For j = 0 to n-1:
+Set cj to be the lowest bit of the floor of quotient (4vj)/q; that is 
+Set uj to be the lowest bit of the quotient (2vj)/q after rounding; that is 
+Form the key (k) as the concatenation of un-1, ..., u0.
+Form an n-long "reconciliation" bit string (c) as the concatenation of cn-1, ..., c0.
+Compute tR(x) = a(x)·sR(x) + eR(x).
+The Respondent sends tR(x) and c to the Initiator.
+Initiators Final Steps:
+
+Receive tR(x) and c from the Responder
+Compute w(x) = tR(x)·sI(x) + eI(x) = a(x)sI(x)sR(x) + eR(x)sI(x) + eI(x) Note that while this this does not equal v(x) (above) the first term in the result a(x)sI(x)sR(x) equals the first term in v(x) and the other terms are all small. The following reconciliation steps will correct (with high probability) the differences.
+An n-long bit stream (uj) is formed by looping through the coefficients of w(x) and performing "Key Reconciliation." For j = 0 to n-1:
+If cj = 0 and -q/8 ≤ wj < 3q/8 then uj = 0 otherwise uj = 1
+If cj = 1 and -3q/8 ≤ wj < q/8 then uj = 0 otherwise uj = 1
+Form the key (k) as the concatenation of un-1, ..., u0
+If the key exchange worked properly, the initiator's string: un-1, ..., u0 and the respondent's string: un-1, ..., u0 will be the same.
+
+Depending on the specifics of the parameters chosen n, q, σ, or b, there is an extremely small probability that this key exchange will fail to produce the same key. Parameters for the key exchange can be chosen to make the probability of failure in the key exchange very small; much less than the probability of undetectable garbles or device failures.
+
+[Shtetl-Optimized » Blog Archive » US State Department: Let in cryptographers and other scientists](http://www.scottaaronson.com/blog/?p=1942)
+
+> Shtetl-Optimized » Blog Archive » US State Department: Let in cryptographers and other scientists
+The key exchange will take place between two devices. There will be an initiator for the key exchange designated as (I) and a respondent designated as (R). Both I and R know, q, n, a(x), and have the ability to generate small polynomials according to the distribution D. The description which follows does not contain any explanation of why the key exchange results in the same key at both ends of a link. Rather, it succinctly specifies the steps to be taken. For a thorough understanding of why the key exchange results in the initiator and responder having the same key, the reader should look at the referenced works by Peikert and Singh.[2][3]
+
+The key exchange begins with the initiator (I) doing the following:
+
+Initiator's First Steps:
+
+Generate two small polynomials sI(x) and eI(x) by sampling from the distribution D.
+Compute tI(x) = a(x)·sI(x) + eI(x).
+The initiator sends the polynomial tI(x) to the Responder.
+Respondent's Steps:
+
+Generate two small polynomials sR(x) and eR(x) by sampling from the distribution D.
+Compute v(x) = tI(x)·sR(x) + eR(x) Note that v(x) = a(x)sI(x)sR(x) + eI(x)sR(x) + eR(x) and that eR(x) + eI(x)sR(x) will be small because eR(x) was chosen to be small and the coefficients of eI(x)sR(x) will be bounded in their growth and still relatively small.
+The distribution of the coefficients of v(x) are smoothed by looping through the coefficients and randomly adjusting certain values. For j = 0 to n-1:
+If vj = 0, draw a random bit (b). If b = 0 then vj = 0 otherwise vj = q-1
+If vj = (q-1)/4, draw a random bit (b). If b = 0 then vj = (q-1)/4 otherwise vj = (q+3)/4
+Two n-long bit streams, cj, and uj, are formed from the coefficients of v(x), (vn-1, ... , v0 ), via "Cross Rounding" and "Modular Rounding" respectively. For j = 0 to n-1:
+Set cj to be the lowest bit of the floor of quotient (4vj)/q; that is 
+Set uj to be the lowest bit of the quotient (2vj)/q after rounding; that is 
+Form the key (k) as the concatenation of un-1, ..., u0.
+Form an n-long "reconciliation" bit string (c) as the concatenation of cn-1, ..., c0.
+Compute tR(x) = a(x)·sR(x) + eR(x).
+The Respondent sends tR(x) and c to the Initiator.
+Initiators Final Steps:
+
+Receive tR(x) and c from the Responder
+Compute w(x) = tR(x)·sI(x) + eI(x) = a(x)sI(x)sR(x) + eR(x)sI(x) + eI(x) Note that while this this does not equal v(x) (above) the first term in the result a(x)sI(x)sR(x) equals the first term in v(x) and the other terms are all small. The following reconciliation steps will correct (with high probability) the differences.
+An n-long bit stream (uj) is formed by looping through the coefficients of w(x) and performing "Key Reconciliation." For j = 0 to n-1:
+If cj = 0 and -q/8 ≤ wj < 3q/8 then uj = 0 otherwise uj = 1
+If cj = 1 and -3q/8 ≤ wj < q/8 then uj = 0 otherwise uj = 1
+Form the key (k) as the concatenation of un-1, ..., u0
+If the key exchange worked properly, the initiator's string: un-1, ..., u0 and the respondent's string: un-1, ..., u0 will be the same.
+
+Depending on the specifics of the parameters chosen n, q, σ, or b, there is an extremely small probability that this key exchange will fail to produce the same key. Parameters for the key exchange can be chosen to make the probability of failure in the key exchange very small; much less than the probability of undetectable garbles or device failures.
+
+[Shtetl-Optimized » Blog Archive » US State Department: Let in cryptographers and other scientists](http://www.scottaaronson.com/blog/?p=1942)
+
+> Shtetl-Optimized » Blog Archive » US State Department: Let in cryptographers and other scientists
+
+
+Algebra is the offer made by the devil to the mathematician...All you need to do, is give me your soul: give up geometry --Michael Atiyah
+
+“https://45.55.147.155/index.php?title=Main_Page#Basic_Support_Definitions_.26_Theorems”
+
+https://45.55.147.155/index.php?title=Main_Page#Basic_Support_Definitions_.26_Theorems
+
+“MediaWiki logo image?
+
+In order to change the MediaWiki default logo you should do the following:
+
+1. Create an image for your logo with dimensions of 135x135 pixels.
+
+The recommended format for the image is .png, but other formats like .gif or .jpeg are also ok. Please note that if you upload image with different dimensions it may not be displayed.
+
+2. Upload your logo image somewhere on your web hosting account. 
+
+For example you can upload it directly in the public_html folder.
+
+3. Add or edit the $wgLogo line in the LocalSettings.php to contain the path to your logo
+
+The LocalSettings.php file is located under the directory where your MediaWiki is installed. If it is installed directly in the public_html, this file will also be there. If it is installed in a subdirectory of the public_html, the file will be located in the subdirectory.
+
+You should open the LocalSetting.php and look for a line that starts with $wgLogo. If there is no such line you should add it yourself and if there already is such a line you should edit it to contain the path to your logo. For example if we suppose that your logo is named logo.png and you have uploaded it directly in the public_html folder the line should look like:
+
+$wgLogo = "logo.png”
+
+If you have uploaded the logo in a subdirectory of you public_html, be sure to paste the whole path. For example if you have uploaded you logo logo.png in the skins/common/images/ directory the line should look like:
+
+$wgLogo = "skins/common/images/logo.png"
+
+4. If you have followed the instructions above and you still do not see your logo, please make sure that in the LocalSettings.php the image upload is allowed.
+
+To do this open the LocalSettings.php file and change the line
+
+$wgEnableUploads = false;
+
+to
+
+$wgEnableUploads = true;
+
+ 
+NB: It is possible to simply overwrite the default logo installed with MediaWiki, but this is strongly advised against, as an upgrade may end up overwriting it or change the default location of this file.
+
+”
+
+https://www.siteground.com/kb/how_to_change_my_mediawiki_logo_image/
+
+How to get complex math formulas working in MediaWiki
+
+This article explains how to overcome issues with Math formulas not properly displaying in MediaWiki with enabled Math Support.
+
+The problem is mainly caused by the fact that the default Math Support in MediaWiki does not include all desired formulas or mathematical signs. Particularly more complex ones.
+
+If you are getting an error that the formula you are trying to use is not recognize follow these steps.
+
+1. Enable Math Support for your MediaWiki
+2. Download this file and place it in the cgi-bin folder for your account with execute permissions.
+3. Make sure there is a directory under the cgi-bin folder called mathtex and set its permissions to 755. 
+4. Open the Math.php file located in the /includes folder of your MediaWiki and find this function (at the bottom):
+
+public static function renderMath( $tex, $params=array() ) {
+    global $wgUser;
+    $math = new MathRenderer( $tex, $params );
+    $math->setOutputMode( $wgUser->getOption('math'));
+    return $math->render();
+}
+
+Add this line after the first line:
+
+    return '<img class="tex" src="http://www.example.com/cgi-bin/mathtex.cgi?' . rawurlencode($tex) . '"' . htmlspecialchars($tex) . '">';
+
+The result should look like this:
+
+public static function renderMath( $tex, $params=array() ) {
+    return '<img class="tex" src="http://www.example.com/cgi-bin/mathtex.cgi?' . rawurlencode($tex) . '"' . htmlspecialchars($tex) . '">';
+    global $wgUser;
+    $math = new MathRenderer( $tex, $params );
+    $math->setOutputMode( $wgUser->getOption('math'));
+    return $math->render();
+}
+
+Where http://www.example.com/cgi-bin/mathtex.cgi is the URL of the mathTeX cgi script you have just downloaded and placed on your account.
+
+That's it. All valid mathematical formulas should be loading properly for your MediaWiki installation now.
+
+The key exchange will take place between two devices. There will be an initiator for the key exchange designated as (I) and a respondent designated as (R). Both I and R know, q, n, a(x), and have the ability to generate small polynomials according to the distribution D. The description which follows does not contain any explanation of why the key exchange results in the same key at both ends of a link. Rather, it succinctly specifies the steps to be taken. For a thorough understanding of why the key exchange results in the initiator and responder having the same key, the reader should look at the referenced works by Peikert and Singh.[2][3]
+
+The key exchange begins with the initiator (I) doing the following:
+
+Initiator's First Steps:
+
+Generate two small polynomials sI(x) and eI(x) by sampling from the distribution D.
+Compute tI(x) = a(x)·sI(x) + eI(x).
+The initiator sends the polynomial tI(x) to the Responder.
+Respondent's Steps:
+
+Generate two small polynomials sR(x) and eR(x) by sampling from the distribution D.
+Compute v(x) = tI(x)·sR(x) + eR(x) Note that v(x) = a(x)sI(x)sR(x) + eI(x)sR(x) + eR(x) and that eR(x) + eI(x)sR(x) will be small because eR(x) was chosen to be small and the coefficients of eI(x)sR(x) will be bounded in their growth and still relatively small.
+The distribution of the coefficients of v(x) are smoothed by looping through the coefficients and randomly adjusting certain values. For j = 0 to n-1:
+If vj = 0, draw a random bit (b). If b = 0 then vj = 0 otherwise vj = q-1
+If vj = (q-1)/4, draw a random bit (b). If b = 0 then vj = (q-1)/4 otherwise vj = (q+3)/4
+Two n-long bit streams, cj, and uj, are formed from the coefficients of v(x), (vn-1, ... , v0 ), via "Cross Rounding" and "Modular Rounding" respectively. For j = 0 to n-1:
+Set cj to be the lowest bit of the floor of quotient (4vj)/q; that is 
+Set uj to be the lowest bit of the quotient (2vj)/q after rounding; that is 
+Form the key (k) as the concatenation of un-1, ..., u0.
+Form an n-long "reconciliation" bit string (c) as the concatenation of cn-1, ..., c0.
+Compute tR(x) = a(x)·sR(x) + eR(x).
+The Respondent sends tR(x) and c to the Initiator.
+Initiators Final Steps:
+
+Receive tR(x) and c from the Responder
+Compute w(x) = tR(x)·sI(x) + eI(x) = a(x)sI(x)sR(x) + eR(x)sI(x) + eI(x) Note that while this this does not equal v(x) (above) the first term in the result a(x)sI(x)sR(x) equals the first term in v(x) and the other terms are all small. The following reconciliation steps will correct (with high probability) the differences.
+An n-long bit stream (uj) is formed by looping through the coefficients of w(x) and performing "Key Reconciliation." For j = 0 to n-1:
+If cj = 0 and -q/8 ≤ wj < 3q/8 then uj = 0 otherwise uj = 1
+If cj = 1 and -3q/8 ≤ wj < q/8 then uj = 0 otherwise uj = 1
+Form the key (k) as the concatenation of un-1, ..., u0
+If the key exchange worked properly, the initiator's string: un-1, ..., u0 and the respondent's string: un-1, ..., u0 will be the same.
+
+Depending on the specifics of the parameters chosen n, q, σ, or b, there is an extremely small probability that this key exchange will fail to produce the same key. Parameters for the key exchange can be chosen to make the probability of failure in the key exchange very small; much less than the probability of undetectable garbles or device failures.
+
+[Sri Lanka GROW Project](http://www.niu.edu/srilankaproj/woman.html)
+
+> Sri Lanka GROW Project
+
+
+[U.S. Visa and Green Card Photograph Requirements](http://www.immihelp.com/us-visa-greencard-photo-requirements/)
+
+> U.S. Visa and Green Card Photograph Requirements
+
+
+
+
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+>	
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

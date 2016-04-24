@@ -1,0 +1,574 @@
+
+let g:airline#extensions#wordcount#enabled = 1
+
+http://m.youtube.com/watch?v=fnkVQg-5xuQ
+
+[GitHub - koron/nyancat-vim](https://github.com/koron/nyancat-vim)
+
+[GitHub - klange/nyancat: Nyancat in your terminal, rendered through ANSI escape sequences. This is the source for the Debian package `nyancat`.](https://github.com/klange/nyancat)
+
+http://www.mochithings.com/
+
+[Cephalopod consciousness: Behavioural evidence](http://www.sciencedirect.com/science/article/pii/S1053810006001504?via%3Dihub)
+
+[ProofWiki:Community Portal - ProofWiki](https://proofwiki.org/wiki/ProofWiki:Community_Portal)
+
+[deselaers (Thomas Deselaers) · GitHub](https://github.com/deselaers)
+
+working-copy://x-callback-url/<command>/?x-success=<escaped-url>&repo=...&key=...
+
+http://www.knifeden.com/best-multitools/
+[Dropbox - In Saving Strangers.pdf](https://db.tt/2RgVkr7R)
+
+[https://www.lri.fr/~filliatr/bibtex2html/](https://www.lri.fr/~filliatr/bibtex2html/)
+
+[GitHub - dzerbino/ascii_plots: Convenience function for quick and dirty data analysis](https://github.com/dzerbino/ascii_plots)
+
+[GitHub - EnderUNIX/Aget: Multithreaded HTTP Download Accelerator](https://github.com/EnderUNIX/Aget)
+
+[Damian Conway, "More Instantly Better Vim" - OSCON 2013 - YouTube](https://m.youtube.com/watch?v=aHm36-na4-4)
+
+[Add a Secret Scroll Gesture to Reveal App Windows on Your Mac](http://lifehacker.com/add-a-secret-scroll-gesture-to-reveal-app-windows-on-yo-1713086047)
+
+[Your Mac Logs Everything You Download, Here's How to Clear It Out](http://lifehacker.com/your-mac-logs-everything-you-download-heres-how-to-cle-1658394180)
+
+[MPS-YouTube Is a Terminal-Based Youtube Player and Downloader](http://lifehacker.com/mps-youtube-is-a-terminal-based-youtube-player-and-down-1651752380)
+
+#!/usr/bin/env bash
+
+APPNAME=${2:-$(basename "$1" ".sh")}
+DIR="$APPNAME.app/Contents/MacOS"
+
+if [ -a "$APPNAME.app" ]; then
+  echo "$PWD/$APPNAME.app already exists :("
+  exit 1
+fi
+
+mkdir -p "$DIR"
+cp "$1" "$DIR/$APPNAME"
+chmod +x "$DIR/$APPNAME"
+
+echo "$PWD/$APPNAME.app"
+
+https://williamjturkel.net/2013/08/24/working-with-pdfs-using-command-line-tools-in-linux/
+
+[Git2Go - The Git client for iOS you always wanted](http://git2go.com/)
+
+[bash says hi Nik · GitHub](https://github.com/krismshort/mydots/commit/2891d400103b4fccc04e6f1c49b5f3bd0e912c84)
+
+[https://pugwash.org/1955/07/09/statement-manifesto/](https://pugwash.org/1955/07/09/statement-manifesto/)
+
+[DotFiles - Greg's Wiki](http://mywiki.wooledge.org/DotFiles)
+
+[Dot-file - Wikipedia, the free encyclopedia](https://en.m.wikipedia.org/wiki/Dot-file)
+
+[Setting Up a Mac Dev Machine From Zero to Hero With Dotfiles](http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449)
+
+[Getting started with dotfiles — Medium](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789#.xcna7njys)
+
+[GitHub - gauthma/myvim: my vim settings](https://github.com/gauthma/myvim)
+
+[Vim Hacks - erroneous thoughts](https://erroneousthoughts.org/vim-hacks/)
+
+[101 Hacks to Make You Fast and Productive in the Vim Editor... Guaranteed](http://www.thegeekstuff.com/vim-101-hacks-ebook/)
+
+[Vim Awesome](http://vimawesome.com/)
+
+[plugins - Latex and Vim usage - Stack Overflow](http://stackoverflow.com/questions/3723493/latex-and-vim-usage)
+
+[Rubber in Launchpad](https://launchpad.net/rubber/)
+
+[r/vim](https://m.reddit.com/r/vim/comments/1hy5o5/best_latex_plugin/)
+
+[GitHub - SirVer/ultisnips: UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!](https://github.com/SirVer/ultisnips)
+
+[Using folders with latex - Vim Tips Wiki - Wikia](http://vim.wikia.com/wiki/Using_folders_with_latex)
+
+[Text object for formulas in Latex - Vim Tips Wiki - Wikia](http://vim.wikia.com/wiki/Text_object_for_formulas_in_Latex)
+
+[Open pdf to the current location in a LaTeX file - Vim Tips Wiki - Wikia](http://vim.wikia.com/wiki/Open_pdf_to_the_current_location_in_a_LaTeX_file)
+
+[snipMate - TextMate-style snippets for Vim : vim online](http://www.vim.org/scripts/script.php?script_id=2540)
+
+Extending the Taglist plugin
+
+https://db.tt/LfRVg9qU
+
+[Hack This Site!](https://www.hackthissite.org/)
+
+Where Hackers and Security Experts Come to Train - Enigma Group
+
+[http://www.cs.fsu.edu/~redwood/OffensiveSecurity/](http://www.cs.fsu.edu/~redwood/OffensiveSecurity/)
+
+drafts4://x-callback-url/open?uuid=A2E0B8ED-311A-4EC2-89DF-C3BE6C15A46A
+
+drafts4://x-callback-url/open?uuid=0F775AA4-3F7D-42B0-95BD-8441CED4E85B
+
+ax2 = ax1.twinx()
+ax2.set_ylim(ax.get
+
+http://youtu.be/ZFCCunCeFEI
+
+You have no responsibility to live up to what other people think you ought to accomplish. I have no responsibility to be like they expect me to be. It's their mistake, not my failing.
+
+[Discrimination and mass surveillance](http://brainslap.it/Discrimination-and-mass-surveillance-9160dda683)
+
+CYBINT/DNINT
+Cyber Intelligence/Digital Network Intelligence—gathered from Cyber Space
+
+FININT
+Financial Intelligence—gathered from analysis of monetary transactions
+
+Technical Intelligence—gathered from analysis of weapons and equipment used by the armed forces of foreign nations, or environmental conditions.
+
+MEDINT—Medical Intelligence: gathered from analysis of medical records and/or actual physiological examinations to determine health and/or particular ailments/allergetic conditions for consideration.
+
+Signals Intelligence—gathered from interception of signals
+
+COMINT—Communications Intelligence
+ELINT—Electronic Intelligence: gathered from electronic signals that do not contain speech or text (which are considered COMINT).
+FISINT—Foreign Instrumentation Signals Intelligence, was formerly known as TELINT or Telemetry Intelligence. TELINT, entails the collection and analysis of telemetry data from the target's missile or sometimes from aircraft tests.
+
+Geospatial Intelligence—gathered from satellite, aerial photography, mapping/terrain data
+
+IMINT—Imagery Intelligence: gathered from satellite and aerial photography
+
+[Humanitarianism and Humanitarian Intervention | Reviews in History](http://www.history.ac.uk/reviews/review/1141)
+
+With category theory, this discovery can be expressed in what has to be one of the most satisfying formulas of all time: \( P \xrightarrow{\quad f \quad} \mathbb{R}^{2} \)
+
+You will need
+
+6 tablespoons of fresh green peas 
+2 tablespoon plain yogurt
+1 teaspoon mustard
+
+Network - 173.25.204.1-173.25.204.254:
+Title;Info;IP
+173.25.204.2;173-25-204-2.client.mchsi.com;173.25.204.2
+173.25.204.6;173-25-204-6.client.mchsi.com;173.25.204.6
+173.25.204.8;173-25-204-8.client.mchsi.com;173.25.204.8
+173.25.204.9;173-25-204-9.client.mchsi.com;173.25.204.9
+173.25.204.10;173-25-204-10.client.mchsi.com;173.25.204.10
+173.25.204.12;173-25-204-12.client.mchsi.com;173.25.204.12
+173.25.204.13;173-25-204-13.client.mchsi.com;173.25.204.13
+173.25.204.17;173-25-204-17.client.mchsi.com;173.25.204.17
+173.25.204.21;173-25-204-21.client.mchsi.com;173.25.204.21
+173.25.204.23;173-25-204-23.client.mchsi.com;173.25.204.23
+173.25.204.26;173-25-204-26.client.mchsi.com;173.25.204.26
+173.25.204.28;173-25-204-28.client.mchsi.com;173.25.204.28
+173.25.204.31;173-25-204-31.client.mchsi.com;173.25.204.31
+173.25.204.32;173-25-204-32.client.mchsi.com;173.25.204.32
+173.25.204.37;173-25-204-37.client.mchsi.com;173.25.204.37
+173.25.204.38;173-25-204-38.client.mchsi.com;173.25.204.38
+173.25.204.41;173-25-204-41.client.mchsi.com;173.25.204.41
+173.25.204.46;173-25-204-46.client.mchsi.com;173.25.204.46
+173.25.204.48;173-25-204-48.client.mchsi.com;173.25.204.48
+173.25.204.49;173-25-204-49.client.mchsi.com;173.25.204.49
+173.25.204.51;173-25-204-51.client.mchsi.com;173.25.204.51
+173.25.204.60;173-25-204-60.client.mchsi.com;173.25.204.60
+173.25.204.71;173-25-204-71.client.mchsi.com;173.25.204.71
+173.25.204.75;173-25-204-75.client.mchsi.com;173.25.204.75
+173.25.204.84;173-25-204-84.client.mchsi.com;173.25.204.84
+173.25.204.92;173-25-204-92.client.mchsi.com;173.25.204.92
+173.25.204.98;173-25-204-98.client.mchsi.com;173.25.204.98
+173.25.204.100;173-25-204-100.client.mchsi.com;173.25.204.100
+173.25.204.102;173-25-204-102.client.mchsi.com;173.25.204.102
+173.25.204.107;173-25-204-107.client.mchsi.com;173.25.204.107
+173.25.204.114;173-25-204-114.client.mchsi.com;173.25.204.114
+173.25.204.122;173-25-204-122.client.mchsi.com;173.25.204.122
+173.25.204.127;173-25-204-127.client.mchsi.com;173.25.204.127
+173.25.204.128;173-25-204-128.client.mchsi.com;173.25.204.128
+173.25.204.129;173-25-204-129.client.mchsi.com;173.25.204.129
+173.25.204.130;173-25-204-130.client.mchsi.com;173.25.204.130
+173.25.204.139;173-25-204-139.client.mchsi.com;173.25.204.139
+173.25.204.143;173-25-204-143.client.mchsi.com;173.25.204.143
+173.25.204.144;173-25-204-144.client.mchsi.com;173.25.204.144
+173.25.204.146;173-25-204-146.client.mchsi.com;173.25.204.146
+173.25.204.155;173-25-204-155.client.mchsi.com;173.25.204.155
+173.25.204.156;173-25-204-156.client.mchsi.com;173.25.204.156
+173.25.204.159;173-25-204-159.client.mchsi.com;173.25.204.159
+173.25.204.161;173-25-204-161.client.mchsi.com;173.25.204.161
+173.25.204.163;173-25-204-163.client.mchsi.com;173.25.204.163
+173.25.204.164;173-25-204-164.client.mchsi.com;173.25.204.164
+173.25.204.165;173-25-204-165.client.mchsi.com;173.25.204.165
+173.25.204.171;173-25-204-171.client.mchsi.com;173.25.204.171
+173.25.204.174;173-25-204-174.client.mchsi.com;173.25.204.174
+173.25.204.180;173-25-204-180.client.mchsi.com;173.25.204.180
+173.25.204.185;173-25-204-185.client.mchsi.com;173.25.204.185
+173.25.204.188;173-25-204-188.client.mchsi.com;173.25.204.188
+173.25.204.193;173-25-204-193.client.mchsi.com;173.25.204.193
+173.25.204.194;173-25-204-194.client.mchsi.com;173.25.204.194
+173.25.204.195;173-25-204-195.client.mchsi.com;173.25.204.195
+173.25.204.203;173-25-204-203.client.mchsi.com;173.25.204.203
+173.25.204.207;173-25-204-207.client.mchsi.com;173.25.204.207
+173.25.204.208;173-25-204-208.client.mchsi.com;173.25.204.208
+173.25.204.210;173-25-204-210.client.mchsi.com;173.25.204.210
+173.25.204.211;173-25-204-211.client.mchsi.com;173.25.204.211
+173.25.204.213;173-25-204-213.client.mchsi.com;173.25.204.213
+173.25.204.215;173-25-204-215.client.mchsi.com;173.25.204.215
+173.25.204.219;173-25-204-219.client.mchsi.com;173.25.204.219
+173.25.204.226;173-25-204-226.client.mchsi.com;173.25.204.226
+173.25.204.230;173-25-204-230.client.mchsi.com;173.25.204.230
+173.25.204.232;173-25-204-232.client.mchsi.com;173.25.204.232
+173.25.204.234;173-25-204-234.client.mchsi.com;173.25.204.234
+173.25.204.242;173-25-204-242.client.mchsi.com;173.25.204.242
+173.25.204.245;173-25-204-245.client.mchsi.com;173.25.204.245
+173.25.204.248;173-25-204-248.client.mchsi.com;173.25.204.248
+
+https://db.tt/7MDnFvag
+
+[MathHistory28: Computability and problems with Set theory - YouTube](https://m.youtube.com/watch?v=Bo2w25fDLwY)
+
+[205 | Lapham Company](https://www.laphamcompany.com/node/5459)
+
+George Danezis posted: "Boing Boing just released a classified GCHQ document that was meant to act as the Sept 2011 guide to open research problems in Data Mining. The intended audience, Heilbronn Institute for Mathematical Research (HIMR), is part of the University of Bristol a"
+Respond to this post by replying above this line
+New post on Conspicuous Chatter
+A technical reading of the “HIMR Data Mining Research Problem Book” by George Danezis
+Boing Boing just released a classified GCHQ document that was meant to act as the Sept 2011 guide to open research problems in Data Mining. The intended audience, Heilbronn Institute for Mathematical Research (HIMR), is part of the University of Bristol and composed of mathematicians working for half their time on classified problems with GCHQ.
+First off, a quick perusal of the actual publication record of the HIMR makes a sad reading for GCHQ: it seems that very little research on data mining was actually performed post-2011-2014 despite this pitch. I guess this is what you get trying to make pure mathematicians solve core computer science problems.
+However, the document presents one of the clearest explanations of GCHQ's operations and their scale at the time; as well as a very interesting list of open problems, along with salient examples.
+Overall, reading this document very much resembles reading the needs of any other organization with big-data, struggling to process it to get any value. The constrains under which they operate (see below), and in particular the limitations to O(n log n) storage per vertex and O(1) per edge event, is a serious threat -- but of course this is only for un-selected traffic. So the 5000 or so Tor nodes probably would have a little more space and processing allocated to them, and so would known botnets -- I presume.
+Secondly, there is clear evidence that timing information is both recognized as being key to correlating events and streams; and it is being recorded and stored at an increasing granularity. There is no smoking gun as of 2011 to say they casually de-anonymize Tor circuits, but the writing is on the wall for the onion routing system. GCHQ at 2011 had all ingredients needed to trace Tor circuits. It would take extra-ordinary incompetence to not have refined their traffic analysis techniques in the past 5 years. The Tor project should do well to not underestimate GCHQ's capabilities to this point.
+Thirdly, one should wonder why we have been waiting for 3 years until such clear documents are finally being published from the Snowden revelations. If those had been the first published, instead of the obscure, misleading and very non-informative slides, it would have saved a lot of time -- and may even have engaged the public a bit more han bad powerpoint.
+Read more of this post
+George Danezis | 3 February 2016 at 11:16 pm | Tags: Analysis, GCHQ, Leaks, Snowden | Categories: Anonymity, Policy, Traffic Analysis, Uncategorized | URL: http://wp.me/p5CT0-9d
+Comment    See all comments    Like
+Unsubscribe to no longer receive posts from Conspicuous Chatter.
+Change your email settings at Manage Subscriptions.
+Trouble clicking? Copy and paste this URL into your browser:
+https://conspicuouschatter.wordpress.com/2016/02/03/a-technical-reading-of-the-himr-data-mining-research-problem-book/
+Thanks for flying with WordPress.com
+
+[Essays and Opinions by Oded Goldreich](http://www.wisdom.weizmann.ac.il/~oded/essays.html)
+
+\fbox{% \begin{minipage}[b][3cm][t]{2cm}  This is a minipage with a height of 3~cm  with the text alignedat the top. \end{minipage}}\hfill\fbox{% \begin{minipage}[b][3cm][c]{2cm}  In this minipage of same height, the text is vertically centered.\end{minipage}}\hfill \fbox{%\begin{minipage}[b][3cm][b]{2cm}In this third box of same height, text is aligned at the bottom.\end{minipage}}\hfill \fbox{%\begin{minipage}[b][3cm][s]{2cm}\baselineskip 10pt plus 2pt minus 2ptIn this fourth box of same height, the text is stretched to fill in the entire vertical space.\end{minipage}}
+
+[LaTeX Spaces and Boxes](http://www.personal.ceu.hu/tex/spacebox.htm)
+
+[Alexander GIVENTAL's Home Page](https://math.berkeley.edu/~giventh/)
+
+[3d - Drawing polyhedra using TikZ with semi-transparent and shading effect - TeX - LaTeX Stack Exchange](http://tex.stackexchange.com/questions/17204/drawing-polyhedra-using-tikz-with-semi-transparent-and-shading-effect)
+
+Summing It Up:
+From One Plus One to Modern Number Theory
+
+A Gallery of Twenty-One Polyhedra with Icosidodecahedral Symmetry | RobertLovesPi's Blog
+
+[Common Graphs — Sage Reference Manual v6.10: Graph Theory](http://doc.sagemath.org/html/en/reference/graphs/sage/graphs/graph_generators.html)
+
+[The Electronic Journal of Combinatorics](http://www.combinatorics.org/ojs/index.php/eljc/index)
+
+“Mindbloom Life Game”
+
+http://mindbloom.com/lifegame
+
+[LattE Software](https://www.math.ucdavis.edu/~latte/software.php)
+
+> LattE Software
+
+“The Geometry Junkyard: All Topics”
+
+https://www.ics.uci.edu/~eppstein/junkyard/all.html
+
+“MathEduc”
+
+http://www.zentralblatt-math.org/matheduc/en/?q=an:06060304
+
+“GeomSpace download | SourceForge.net”
+
+http://sourceforge.net/projects/geomspace/
+
+“CaRMetal for Mac, Compass and Ruler (C.a.R.) is a dynamic geometry software.”
+
+http://macdownload.informer.com/carmetal/
+
+Since Abel's identity relates the different linearly independent solutions of the differential equation, it can be used to find one solution from the other. It provides useful identities relating the solutions, and is also useful as a part of other techniques such as the method of variation of parameters. It is especially useful for equations such as Bessel's equation where the solutions do not have a simple analytical form, because in such cases the Wronskian is difficult to compute directly.
+
+A generalisation to first-order systems of homogeneous linear differential equations is given by Liouville's formula.
+
+Hotkey Window
+
+iTerm2 offers a special terminal window that is always available with a single keystroke. This window is called the "hotkey window" and is most commonly used for occasional administrative tasks. To enable this feature, go to Preferences > Keys. Enable "Show/Hide iTerm2 with a system-wide hotkey". Click in the field and enter the key combination you'd like to use. Then check "hotkey toggles a dedicated window with profile:". A new profile will be created that is optimized for the feature. Pressing the hotkey will drop a terminal window down from the top of the screen, and pressing it again (or clicking in any other window) causes it to disappear.
+
+LINE SSH USER GUIDE
+SSH is a secure protocol that encrypts all data sent between the client computer and the computer it is connecting to. SSH applications usually allow both interactive terminal sessions on the remote machine and the ability to transfer files securely.
+
+This guide is intended as a very basic introduction to using command line SSH commands. A lot more information on using SSH can be found online, in books, and in the man pages for each individual SSH command.
+
+Opening a Terminal on a Remote Machine through SSH
+Transferring Files with SSH
+Opening a Terminal on a Remote Machine through SSH
+
+The command line SSH command to open a terminal on a remote machine is just called ssh. The syntax to connect to a remote machine is:
+
+ssh username@hostname
+where username is the name of your account on the remote system and hostname is the hostname of the remote system that is being connected to.
+
+The following is an example of the user abc123 connecting to the Lion-X cluster lionxj.rcc.psu.edu.
+
+[abc123@funkmachine ~]$ ssh abc123@lionxj.rcc.psu.edu
+abc123@lionxj.rcc.psu.edu's password: password
+[abc123@lionxj ~]$
+The "[abc123@lionxj ~]$" prompt now shows that user abc123 is logged in to lionxj.
+
+Transferring Files with SSH
+
+There are two main command-line SSH commands to transfer files: scp and sftp. scp is a non-interactive command that takes a set of files to copy on the command line, copies them, and exits. sftp is an interactive command that opens a persistent connection that multiple copying commands can be performed through.
+
+scp
+To copy one or more local files up to a remote server, the scp syntax would be:
+
+scp local_file(s) user@hostname:destination_directory
+Example: copy individual files to a remote system
+
+For user abc123 to copy the local files foo.c and foo.h into their home directory on the host lionxj.rcc.psu.edu, the following command would be used:
+
+[abc123@funkmachine ~]$ scp foo.c foo.h abc123@lionxj.rcc.psu.edu:.
+abc123@lionxj.rcc.psu.edu's password: password
+foo.c                               100%  122     0.1KB/s   0.1KB/s   00:00
+foo.h                               100%   14     0.0KB/s   0.1KB/s   00:00
+Example: copy a whole directory to a remote system
+
+For a user to copy a whole directory called srcdir including all of its contents into their home directory on the host hammer.rcc.psu.edu, the -r flag can be added to the scp command. The -r flag tells scp to recursively descend into a directory and copy all of its contents.
+
+[abc123@funkmachine ~]$ scp -r srcdir abc123@hammer.rcc.psu.edu:.
+abc123@lionxj.rcc.psu.edu's password: password
+bork.c                              100%  388     0.4KB/s  22.0KB/s   00:00    
+swap2.c                             100%  199     0.2KB/s  22.0KB/s   00:00    
+list.c                              100% 1029     1.0KB/s  22.0KB/s   00:00    
+array.c                             100%  536     0.5KB/s  22.0KB/s   00:00    
+foo.c                               100%  122     0.1KB/s  22.0KB/s   00:00    
+acid.c                              100%  446     0.4KB/s  22.0KB/s   00:00    
+blah.c                              100%  112     0.1KB/s  22.0KB/s   00:00
+Example: copy files down from a remote system
+
+To copy files from a remote system down to a local machine, the order of the scp command just needs to be reversed so that the first argument (the source argument) is the remote system and the second argument (the destination argument) is a directory on the local system.
+
+For user abc123 to copy the remote file results.txt on the server lionxi.rcc.psu.edu into their current directory on their local machine, the following command would be used:
+
+scp jwh128@lionxi.rcc.psu.edu:results.txt .
+abc123@lionxj.rcc.psu.edu's password: password
+results.txt                         100%    8     0.0KB/s   0.0KB/s   00:00
+
+sftp
+sftp is an interactive command that uses the same syntax as a standard command-line ftp client. It differs from a standard ftp client in that the authentication and the data transfer happen through the SSH protocol rather than the FTP protocol. The SSH protocol is encrypted whereas the FTP protocol is not.
+
+There are a number of basic commands that are used inside of stfp:
+
+put filename: uploads the file filename
+
+get filename: downloads the file filename
+
+ls: lists the contents of the current remote directory
+
+lls: lists the contents of the current local directory
+
+pwd: returns the current remote directory
+
+lpwd: returns the current local directory
+
+cd directory: changes the current remote directory to directory
+
+lcd directory: changes the current local directory to directory
+
+The syntax for calling sftp is:
+
+sftp username@hostname
+Example sftp session
+
+[abc123@funkmachine ~]$ sftp abc123@lionxi.rcc.psu.edu
+Connecting to lionxi.rcc.psu.edu...
+abc123@lionxi's password: password
+sftp> pwd
+Remote working directory: /gpfs/home/jwh128
+sftp> lpwd
+Local working directory: /home/jwh128
+sftp> cd work/depot
+sftp> pwd
+Remote working directory: /gpfs/work/jwh128/depot
+sftp> lcd results
+sftp> lpwd
+Local working directory: /home/jwh128/results
+sftp> ls -l
+-rw-r--r--    1 root     root            5 Mar  3 12:08 dump
+sftp> lls -l
+total 0
+sftp> get dump
+Fetching /gpfs/work/jwh128/depot/dump to dump
+/gpfs/work/jwh128/depot/dump        100%    5     0.0KB/s   0.0KB/s   00:00    
+sftp> lls -l
+total 4
+-rw-r--r-- 1 jwh128 jwh128 5 Mar  3 12:09 dump
+sftp>
+Copyright ©2014, The Pennsylvania State University | Privacy and Legal Statements | Hotlines
+
+# Theorem
+
+Let R be a ring. Any intersection of subrings of R is again a subring of R. Therefore, if X is any subset of R, the intersection of all subrings of R containing X is a subring S of R. S is the smallest subring of R containing X. ("Smallest" means that if T is any other subring of R containing X, then S is contained in T.) S is said to be the subring of R generated by X. If S = R, we may say that the ring R is generated by X.
+
+BADUSB - ON ACCESSORIES THAT TURN EVIL
+
+USB has become so commonplace that we rarely worry about its security implications. USB sticks undergo the occasional virus scan, but we consider USB to be otherwise perfectly safe - until now.
+
+This talk introduces a new form of malware that operates from controller chips inside USB devices. USB sticks, as an example, can be reprogrammed to spoof various other device types in order to take control of a computer, exfiltrate data, or spy on the user.
+
+We demonstrate a full system compromise from USB and a self-replicating USB virus not detectable with current defenses.
+
+We then dive into the USB stack and assess where protection from USB malware can and should be anchored.
+
+Abstract. We conduct a theoretical and practical comparison of two Ring-LWE-based, scale-invariant,
+leveled homomorphic encryption schemes { Fan and Vercauteren's adaptation of BGV and the YASHE
+scheme proposed by Bos, Lauter, Loftus and Naehrig. In particular, we explain how to choose param-
+eters to ensure correctness and security against lattice attacks. Our parameter selection improves the
+approach of van de Pol and Smart to choose parameters for schemes based on the Ring-LWE problem
+by using the BKZ-2.0 simulation algorithm.
+We implemented both encryption schemes in C++, using the arithmetic library FLINT, and compared
+them in practice to assess their respective strengths and weaknesses. In particular, we performed a
+homomorphic evaluation of the lightweight block cipher SIMON. Combining block ciphers with homo-
+morphic encryption allows to solve the gargantuan ciphertext expansion in cloud applications.
+
+https://en.wikipedia.org/wiki/Political_repression
+
+"If a program manipulates a large amount of data, it does so in a small number of ways." by Alan J. Perlis 
+
+"Some programming languages manage to absorb change, but withstand progress." by Alan J. Perlis 
+
+# reference request - Best book ever on Number Theory - Mathematics Stack Exchange
+
+"A concise introduction to the theory of numbers by Alan Baker (1970 Fields medalist) covers a lot of ground in less than 100 pages, and does so in a fluid way that never feels rushed. I love this little book."
+
+~http://math.stackexchange.com/questions/329/best-book-ever-on-number-theory 
+
+# Good reading list to build up to algebraic number theory? : math
+
+"A couple good ones to get started are:
+A Classical Introduction to Modern Number Theory - Ireland & Rosen
+Primes of the form x2+ny2 - David Cox
+These will introduce a lot of the main ideas in a way that you can understand with only the basics of abstract algebra. Having background in Galois Theory helps (you can use Dummit & Foote for a solid intro). Cox's book is probably one of the best reads in the subject. Then there are a few that introduce the basic formalism rigorously:
+First two/three chapters of Algebraic Number Theory - Neukirch
+Milne's Online Notes (PDF)
+A Course in Arithmetic - Serre (PDF)
+These cover the basics and can be found from many sources via amazon and google. After this, you can look at some more specialized stuff, though the two main directions are Analytic Number Theory and Langlands Program:
+Analytic Number Theory: Introduction to Analytic Number Theory - Apostal
+Local Fields: Local Fields - Serre
+Cyclotomic Fields: Introduction to Cyclotomic Fields - Washington
+Class Field Theory: Algebraic Number Theory - Cassels & Frolich, the final chapters of Neukirch, Artin L-Functions: A Historical Approach - Snyder (PDF)
+Elliptic Curves: Rational Points on Elliptic Curves - Silverman (undergrad level), The Arithmetic of Elliptic Curves - Silverman
+Modular Forms: A First Course in Modular Forms - Diamond & Shurman, Introduction to Elliptic Curves and Modular Forms - Koblitz, Modular Functions and Modular Forms - Milne (PDF), Automorphic Forms and Representations - Bump
+Langlands Program: (The theory that ties absolutely everything together) An Introduction to Langlands Program - Various, An Elementary Introduction to the Langlands Program - Gelbart (PDF)
+Prerequisites for the Langlands Program - Knapp (PDF) - This has a basic overview of most everything encountered in algebraic number theory along with many more references. Check it out!
+This may be looking far into the future, for someone just getting into Algebraic Number Theory, but I figure it's good to have a reference to point people to. I have my own biases and preferences, if anyone else wants to add something, go for it!"
+
+~http://www.reddit.com/r/math/comments/2igtlq/good_reading_list_to_build_up_to_algebraic_number/ 
+
+# Suggestions for good books on class field theory - MathOverflow
+
+"Wyman's article "What is a Reciprocity Law?" in the American Mathematical Monthly, Vol. 79, No. 6 (Jun. - Jul"
+
+~http://mathoverflow.net/questions/24719/suggestions-for-good-books-on-class-field-theory 
+
+# Miscellaneous Lists
+
+[Miscellaneous Lists](http://www.mathontheweb.org/mathweb/mi-misc_lists.html)
+
+# MR: Publications results for "MSC Primary/Secondary=(11R60)"
+
+[MR: Publications results for "MSC Primary/Secondary=(11R60)"](http://www.ams.org.proxy.lib.iastate.edu/mathscinet/search/publications.html?pg1=CC&op1=AND&s1=11R60)
+
+# MR: Publications results for "MSC Primary/Secondary=(06B10)"
+
+[MR: Publications results for "MSC Primary/Secondary=(06B10)"](http://www.ams.org.proxy.lib.iastate.edu/mathscinet/search/publications.html?pg1=CC&op1=AND&s1=06B10)
+
+# Good Practices for a Marketable Future in the Mathematical Sciences | e-Mentoring Network
+
+[Good Practices for a Marketable Future in the Mathematical Sciences | e-Mentoring Network](http://blogs.ams.org/mathmentoringnetwork/2015/04/20/good-practices-for-a-marketable-future-in-the-mathematical-sciences/#sthash.Yy2jACjM.KJqLXmeV.dpbs)
+
+# AMS Information for Researchers
+
+[AMS Information for Researchers](http://www.ams.org/profession/research)
+
+# Iowa State University Department of Mathematics
+
+[Iowa State University Department of Mathematics](http://www.math.iastate.edu/Faculty/Societies.html)
+# Hammerspoon
+
+[Hammerspoon](http://www.hammerspoon.org/)
+
+> Hammerspoon
+ 
+ 
+ # How To: Install an OS X System Service - BrettTerpstra.com
+
+[How To: Install an OS X System Service - BrettTerpstra.com](http://brettterpstra.com/howtos/install-an-os-x-system-service/)
+
+
+# ttscoff/license-generator · GitHub
+
+[ttscoff/license-generator · GitHub](https://github.com/ttscoff/license-generator)
+
+
+# ttscoff/QuickQuestion · GitHub
+
+[ttscoff/QuickQuestion · GitHub](https://github.com/ttscoff/QuickQuestion)
+
+
+# Footnote utilities for the Markdown Service Tools - BrettTerpstra.com
+
+[Footnote utilities for the Markdown Service Tools - BrettTerpstra.com](http://brettterpstra.com/2013/03/09/footnote-utilities-for-the-markdown-service-tools/)
+
+
+# sage.git - The Sage Repository
+
+[sage.git - The Sage Repository](http://git.sagemath.org/sage.git/commit/?id=f1686df7df460ed0f559d2747d84df26e992e016)
+
+# 
+
+[](http://people.csail.mit.edu/vinodv/COURSES/CSC2414-F11/L1.tex)
+
+# Cryptocode.tex 
+
+[](http://ftp.yzu.edu.tw/CTAN/macros/latex/contrib/cryptocode/cryptocode.tex)
+
+# diagrams - Is there any cryptographic-related graphics drawing package? - TeX - LaTeX Stack Exchange
+
+[diagrams - Is there any cryptographic-related graphics drawing package? - TeX - LaTeX Stack Exchange](http://tex.stackexchange.com/questions/5924/is-there-any-cryptographic-related-graphics-drawing-package)
+
+# Twitter new new gchq lattice construction
+
+[Twitter](https://mobile.twitter.com/hashbreaker/status/567436223153987585)
+
+# GCHQ Catalog of Exploit Tools - Schneier on Security
+
+[GCHQ Catalog of Exploit Tools - Schneier on Security](https://www.schneier.com/blog/archives/2014/07/gchq_catalog_of.html)
+
+150507144SELFPUBLIC INTOXICATION1009 STANGE RD15002531ARRPUBLIC INTOXICATION
+
+[Beamer theme gallery](http://deic.uab.es/~iblanes/beamer_gallery/)
+
+> Beamer theme gallery
+
+# Software for scientists: community-edited list of general-purpose software for scientists.
+
+[Software for scientists: community-edited list of general-purpose software for scientists.](https://gist.github.com/stared/9130888)
+
+> Software for scientists: community-edited list of general-purpose software for scientists.
+ 
+ 
+ “Self-Correcting Quantum Computers, Part III | The Quantum Pontiff”
+
+http://dabacon.org/pontiff/?p=2042
+
+http://en.wikipedia.org/wiki/Outline_of_cryptography
+
+http://networking.itbusinessnet.com/article/Twelve-Companies-Demonstrate-Interoperability-for-OASIS-KMIP-and-PKCS-11-Encryption-and-Cryptographic-Token-Interface-Standards-at-RSA-2015-3857519
+
+http://www.scientificamerican.com/article/nsa-nist-encryption-scandal/
+
+http://en.wikipedia.org/wiki/PKCS_11
+
+http://ordnungsokonomik.tumblr.com/post/101384301874/there-is-a-story-about-two-friends-who-were
+
+http://justaddscience.tumblr.com/post/101457137949/non-euclidean-geometry
+
